@@ -10,6 +10,10 @@ If you have built upon this work please contact us at polarity.works.1@gmail.com
 
 [Kits are sold here](https://keygem.store/collections/keyboards/products/group-buy-featherlight-40-kit)
 
+[QMK Firmware](https://config.qmk.fm/#/crbn/LAYOUT_crbn_1x2u)
+
+[ZMK Firmware](https://github.com/zmkfirmware/zmk/tree/main)
+
 
 This little 40% ortho punches well above its weight and its price tag. Tough enough to survive life on the go or beating down someone that disses it.
 It's got all the configuration options you'd ever want in a 40%. All the components are through-hole so it's a great first keyboard kit to put togethether.
