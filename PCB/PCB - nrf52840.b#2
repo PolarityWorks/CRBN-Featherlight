@@ -212,7 +212,8 @@
 <hole x="104.94" y="19.125" drill="3.048"/>
 <hole x="104.94" y="3.885" drill="3.9878"/>
 <hole x="21.84" y="40.64" drill="2.2"/>
-<text x="215.4682" y="2.2352" size="2.54" layer="22" font="vector" rot="MR0">Polarity Works</text>
+<text x="215.4682" y="2.2352" size="2.54" layer="22" font="vector" rot="MR0">Polarity Works CRBN Featherlight</text>
+<text x="70.0278" y="2.6162" size="1.6764" layer="22" font="vector" rot="MR0">Designed By Kacper Wlodarczyk &amp; Harry Herring</text>
 <rectangle x1="30.0736" y1="76.581" x2="52.7812" y2="81.2546" layer="41"/>
 <rectangle x1="30.0736" y1="76.581" x2="52.7812" y2="81.2546" layer="42"/>
 </plain>
@@ -5305,8 +5306,6 @@ Please make sure your boards conform to these design rules.
 <wire x1="31.34" y1="75.4924" x2="31.7428" y2="75.8952" width="0.4064" layer="16"/>
 <wire x1="37.5654" y1="75.8952" x2="37.7364" y2="76.0662" width="0.4064" layer="16"/>
 <wire x1="31.7428" y1="75.8952" x2="37.5654" y2="75.8952" width="0.4064" layer="16"/>
-<via x="97.7646" y="69.469" extent="1-16" drill="0.3048"/>
-<via x="84.963" y="70.7136" extent="1-16" drill="0.3048"/>
 </signal>
 <signal name="N$42">
 <contactref element="U1" pad="22"/>
