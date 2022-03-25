@@ -212,8 +212,8 @@
 <hole x="104.94" y="19.125" drill="3.048"/>
 <hole x="104.94" y="3.885" drill="3.9878"/>
 <hole x="21.84" y="40.64" drill="2.2"/>
-<text x="218.821" y="1.4478" size="2.54" layer="22" font="vector" rot="MR0">Polarity Works CRBN Featherlight</text>
-<text x="73.1266" y="1.9558" size="1.6764" layer="22" font="vector" rot="MR0">Designed By Kacper Wlodarczyk &amp; Willow Herring</text>
+<text x="215.4682" y="2.2352" size="2.54" layer="22" font="vector" rot="MR0">Polarity Works CRBN Featherlight</text>
+<text x="70.0278" y="2.6162" size="1.6764" layer="22" font="vector" rot="MR0">Designed By Kacper Wlodarczyk &amp; Harry Herring</text>
 <rectangle x1="30.0736" y1="76.581" x2="52.7812" y2="81.2546" layer="41"/>
 <rectangle x1="30.0736" y1="76.581" x2="52.7812" y2="81.2546" layer="42"/>
 </plain>
