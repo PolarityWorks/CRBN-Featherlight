@@ -4076,8 +4076,10 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <smd name="4" x="1.185" y="-0.95" dx="0.6" dy="1.35" layer="1" roundness="15" rot="R270"/>
 <smd name="5" x="1.185" y="0.95" dx="0.6" dy="1.35" layer="1" roundness="15" rot="R270"/>
 </package>
-<package name="SINSOOM2" urn="urn:adsk.eagle:footprint:37877253/4" library_version="30">
+<package name="SINSOOM2" urn="urn:adsk.eagle:footprint:37877253/4" locally_modified="yes" library_version="30" library_locally_modified="yes">
 <pad name="P$1" x="0" y="0" drill="3.75" diameter="6.2"/>
+<wire x1="-2.5" y1="0" x2="2.5" y2="0" width="1.2" layer="32" curve="-180"/>
+<wire x1="-2.5" y1="0" x2="2.5" y2="0" width="1.2" layer="32" curve="180"/>
 </package>
 <package name="STAB-2U" urn="urn:adsk.eagle:footprint:32198870/1" library_version="26" library_locally_modified="yes">
 <hole x="-11.938" y="-8.255" drill="3.9878"/>
@@ -5480,7 +5482,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <packageinstance name="SOT95P285X140-5N"/>
 </packageinstances>
 </package3d>
-<package3d name="SINSOOM2" urn="urn:adsk.eagle:package:37877257/4" type="box" library_version="30">
+<package3d name="SINSOOM2" urn="urn:adsk.eagle:package:37877257/4" type="box" library_version="30" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="SINSOOM2"/>
 </packageinstances>
@@ -8579,7 +8581,7 @@ Source: &lt;a href="http://www.vishay.com/docs/85682/sd103aws.pdf"&gt; Datasheet
 </device>
 </devices>
 </deviceset>
-<deviceset name="SINSOOM2" urn="urn:adsk.eagle:component:37877259/4" library_version="30">
+<deviceset name="SINSOOM2" urn="urn:adsk.eagle:component:37877259/4" library_version="30" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="SINSOOM2" x="0" y="0"/>
 </gates>
