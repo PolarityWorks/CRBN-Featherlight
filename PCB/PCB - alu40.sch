@@ -4076,10 +4076,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <smd name="4" x="1.185" y="-0.95" dx="0.6" dy="1.35" layer="1" roundness="15" rot="R270"/>
 <smd name="5" x="1.185" y="0.95" dx="0.6" dy="1.35" layer="1" roundness="15" rot="R270"/>
 </package>
-<package name="2.5MM_HOLE" urn="urn:adsk.eagle:footprint:32198883/1" library_version="26" library_locally_modified="yes">
-<smd name="P$2" x="0" y="0" dx="3.1" dy="3.1" layer="1" roundness="100" cream="no"/>
-<smd name="P$1" x="0" y="0" dx="3.1" dy="3.1" layer="16" roundness="100" cream="no"/>
-<hole x="0" y="0" drill="2.5"/>
+<package name="SINSOOM2" urn="urn:adsk.eagle:footprint:37877253/4" library_version="30">
+<pad name="P$1" x="0" y="0" drill="3.75" diameter="6.2"/>
 </package>
 <package name="STAB-2U" urn="urn:adsk.eagle:footprint:32198870/1" library_version="26" library_locally_modified="yes">
 <hole x="-11.938" y="-8.255" drill="3.9878"/>
@@ -5482,9 +5480,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <packageinstance name="SOT95P285X140-5N"/>
 </packageinstances>
 </package3d>
-<package3d name="2.5MM_HOLE" urn="urn:adsk.eagle:package:32198940/1" type="box" library_version="26" library_locally_modified="yes">
+<package3d name="SINSOOM2" urn="urn:adsk.eagle:package:37877257/4" type="box" library_version="30">
 <packageinstances>
-<packageinstance name="2.5MM_HOLE"/>
+<packageinstance name="SINSOOM2"/>
 </packageinstances>
 </package3d>
 <package3d name="STAB-2U" urn="urn:adsk.eagle:package:32198944/1" type="empty" library_version="26" library_locally_modified="yes">
@@ -5631,8 +5629,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pin name="VOUT" x="12.7" y="5.08" length="middle" direction="pwr" rot="R180"/>
 <pin name="EN" x="-12.7" y="0" length="middle" direction="in"/>
 </symbol>
-<symbol name="2.5MM_HOLE" urn="urn:adsk.eagle:symbol:32198832/1" library_version="26" library_locally_modified="yes">
-<pin name="P$1" x="-5.08" y="0" length="middle"/>
+<symbol name="SINSOOM2" urn="urn:adsk.eagle:symbol:37877249/1" library_version="28">
+<pin name="P$1" x="0" y="0" length="middle"/>
 </symbol>
 <symbol name="STAB-2U" urn="urn:adsk.eagle:symbol:32198833/1" library_version="26" library_locally_modified="yes">
 <wire x1="0" y1="0" x2="-2.54" y2="0" width="0.1524" layer="94"/>
@@ -8581,17 +8579,17 @@ Source: &lt;a href="http://www.vishay.com/docs/85682/sd103aws.pdf"&gt; Datasheet
 </device>
 </devices>
 </deviceset>
-<deviceset name="2.5MM_HOLE" urn="urn:adsk.eagle:component:32198989/1" library_version="26" library_locally_modified="yes">
+<deviceset name="SINSOOM2" urn="urn:adsk.eagle:component:37877259/4" library_version="30">
 <gates>
-<gate name="G$1" symbol="2.5MM_HOLE" x="0" y="0"/>
+<gate name="G$1" symbol="SINSOOM2" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="2.5MM_HOLE">
+<device name="" package="SINSOOM2">
 <connects>
-<connect gate="G$1" pin="P$1" pad="P$1 P$2"/>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:32198940/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37877257/4"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -22990,13 +22988,13 @@ Source: &lt;a href="https://gct.co/files/drawings/usb4510.pdf"&gt; Datasheet &lt
 <part name="GND8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND71" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="U$1" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" deviceset="2.5MM_HOLE" device="" package3d_urn="urn:adsk.eagle:package:32198940/1"/>
-<part name="U$2" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" deviceset="2.5MM_HOLE" device="" package3d_urn="urn:adsk.eagle:package:32198940/1"/>
-<part name="U$3" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" deviceset="2.5MM_HOLE" device="" package3d_urn="urn:adsk.eagle:package:32198940/1"/>
-<part name="U$4" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" deviceset="2.5MM_HOLE" device="" package3d_urn="urn:adsk.eagle:package:32198940/1"/>
-<part name="U$5" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" deviceset="2.5MM_HOLE" device="" package3d_urn="urn:adsk.eagle:package:32198940/1"/>
-<part name="U$6" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" deviceset="2.5MM_HOLE" device="" package3d_urn="urn:adsk.eagle:package:32198940/1"/>
-<part name="U$7" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" deviceset="2.5MM_HOLE" device="" package3d_urn="urn:adsk.eagle:package:32198940/1"/>
+<part name="U$1" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" deviceset="SINSOOM2" device="" package3d_urn="urn:adsk.eagle:package:37877257/4"/>
+<part name="U$2" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" deviceset="SINSOOM2" device="" package3d_urn="urn:adsk.eagle:package:37877257/4"/>
+<part name="U$3" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" deviceset="SINSOOM2" device="" package3d_urn="urn:adsk.eagle:package:37877257/4"/>
+<part name="U$4" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" deviceset="SINSOOM2" device="" package3d_urn="urn:adsk.eagle:package:37877257/4"/>
+<part name="U$5" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" deviceset="SINSOOM2" device="" package3d_urn="urn:adsk.eagle:package:37877257/4"/>
+<part name="U$6" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" deviceset="SINSOOM2" device="" package3d_urn="urn:adsk.eagle:package:37877257/4"/>
+<part name="U$7" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" deviceset="SINSOOM2" device="" package3d_urn="urn:adsk.eagle:package:37877257/4"/>
 <part name="GND3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="47" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" deviceset="CHERRY" device="" package3d_urn="urn:adsk.eagle:package:32198958/1"/>
 <part name="D48" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" deviceset="1N4148WS" device="" package3d_urn="urn:adsk.eagle:package:32198954/3"/>
@@ -24336,25 +24334,25 @@ Source: &lt;a href="https://gct.co/files/drawings/usb4510.pdf"&gt; Datasheet &lt
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="P$1"/>
-<wire x1="-261.62" y1="-43.18" x2="-261.62" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="-256.54" y1="-43.18" x2="-256.54" y2="-45.72" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="P$1"/>
-<wire x1="-261.62" y1="-45.72" x2="-261.62" y2="-48.26" width="0.1524" layer="91"/>
-<junction x="-261.62" y="-45.72"/>
+<wire x1="-256.54" y1="-45.72" x2="-256.54" y2="-48.26" width="0.1524" layer="91"/>
+<junction x="-256.54" y="-45.72"/>
 <pinref part="U$3" gate="G$1" pin="P$1"/>
-<wire x1="-261.62" y1="-48.26" x2="-261.62" y2="-50.8" width="0.1524" layer="91"/>
-<junction x="-261.62" y="-48.26"/>
+<wire x1="-256.54" y1="-48.26" x2="-256.54" y2="-50.8" width="0.1524" layer="91"/>
+<junction x="-256.54" y="-48.26"/>
 <pinref part="U$4" gate="G$1" pin="P$1"/>
-<wire x1="-261.62" y1="-50.8" x2="-261.62" y2="-53.34" width="0.1524" layer="91"/>
-<junction x="-261.62" y="-50.8"/>
+<wire x1="-256.54" y1="-50.8" x2="-256.54" y2="-53.34" width="0.1524" layer="91"/>
+<junction x="-256.54" y="-50.8"/>
 <pinref part="U$5" gate="G$1" pin="P$1"/>
-<wire x1="-261.62" y1="-53.34" x2="-261.62" y2="-55.88" width="0.1524" layer="91"/>
-<junction x="-261.62" y="-53.34"/>
+<wire x1="-256.54" y1="-53.34" x2="-256.54" y2="-55.88" width="0.1524" layer="91"/>
+<junction x="-256.54" y="-53.34"/>
 <pinref part="U$6" gate="G$1" pin="P$1"/>
-<wire x1="-261.62" y1="-55.88" x2="-261.62" y2="-58.42" width="0.1524" layer="91"/>
-<junction x="-261.62" y="-55.88"/>
+<wire x1="-256.54" y1="-55.88" x2="-256.54" y2="-58.42" width="0.1524" layer="91"/>
+<junction x="-256.54" y="-55.88"/>
 <pinref part="U$7" gate="G$1" pin="P$1"/>
-<wire x1="-261.62" y1="-58.42" x2="-261.62" y2="-63.5" width="0.1524" layer="91"/>
-<junction x="-261.62" y="-58.42"/>
+<wire x1="-256.54" y1="-58.42" x2="-261.62" y2="-63.5" width="0.1524" layer="91"/>
+<junction x="-256.54" y="-58.42"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 </segment>
 <segment>
