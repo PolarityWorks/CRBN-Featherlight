@@ -24670,7 +24670,7 @@ Source: &lt;a href="https://gct.co/files/drawings/usb4510.pdf"&gt; Datasheet &lt
 <segment>
 <pinref part="U1" gate="A" pin="P0.12"/>
 <wire x1="-182.88" y1="-76.2" x2="-182.88" y2="-78.74" width="0.1524" layer="91"/>
-<label x="-182.88" y="-78.74" size="1.778" layer="95" rot="R180"/>
+<label x="-182.88" y="-78.74" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="ROW2" class="0">
