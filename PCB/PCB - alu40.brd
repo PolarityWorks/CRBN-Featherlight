@@ -3481,6 +3481,8 @@
 <rectangle x1="56.735059375" y1="7.0351375" x2="57.344659375" y2="7.04021875" layer="25"/>
 <rectangle x1="56.78078125" y1="7.04021875" x2="57.2989375" y2="7.04529375" layer="25"/>
 <rectangle x1="56.8773" y1="7.045296875" x2="57.20241875" y2="7.050378125" layer="25"/>
+<wire x1="112" y1="22.5" x2="116" y2="22.5" width="2.54" layer="41"/>
+<wire x1="112" y1="22.5" x2="116" y2="22.5" width="2.54" layer="42"/>
 </plain>
 <libraries>
 <library name="Volume_V1" urn="urn:adsk.eagle:library:32198814">
@@ -3846,7 +3848,7 @@
 <wire x1="2.2" y1="-2.35" x2="2.2" y2="-2.35" width="0.2" layer="21"/>
 <wire x1="2.2" y1="-2.35" x2="2.2" y2="-2.15" width="0.2" layer="21" curve="180"/>
 </package>
-<package name="SINSOOM2" urn="urn:adsk.eagle:footprint:37877253/4" locally_modified="yes" library_version="30" library_locally_modified="yes">
+<package name="SINSOOM2" urn="urn:adsk.eagle:footprint:37877253/5" library_version="32" library_locally_modified="yes">
 <pad name="P$1" x="0" y="0" drill="3.75" diameter="6.2"/>
 <wire x1="-2.5" y1="0" x2="2.5" y2="0" width="1.2" layer="32" curve="-180"/>
 <wire x1="-2.5" y1="0" x2="2.5" y2="0" width="1.2" layer="32" curve="180"/>
@@ -4043,7 +4045,7 @@ Datasheet</description>
 <packageinstance name="SK3296S01L1"/>
 </packageinstances>
 </package3d>
-<package3d name="SINSOOM2" urn="urn:adsk.eagle:package:37877257/4" type="box" library_version="30" library_locally_modified="yes">
+<package3d name="SINSOOM2" urn="urn:adsk.eagle:package:37877257/5" type="box" library_version="32" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="SINSOOM2"/>
 </packageinstances>
@@ -7566,13 +7568,13 @@ Please make sure your boards conform to these design rules.
 <attribute name="NAME" x="120.4734" y="21.8772" size="1.27" layer="26" rot="MR90" align="center"/>
 <attribute name="VALUE" x="108.666" y="21.9316" size="1.27" layer="28" rot="MR180" align="center"/>
 </element>
-<element name="U$1" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" package="SINSOOM2" package3d_urn="urn:adsk.eagle:package:37877257/4" value="SINSOOM2" x="19" y="38" smashed="yes"/>
-<element name="U$2" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" package="SINSOOM2" package3d_urn="urn:adsk.eagle:package:37877257/4" value="SINSOOM2" x="57" y="57" smashed="yes"/>
-<element name="U$3" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" package="SINSOOM2" package3d_urn="urn:adsk.eagle:package:37877257/4" value="SINSOOM2" x="57" y="19" smashed="yes"/>
-<element name="U$4" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" package="SINSOOM2" package3d_urn="urn:adsk.eagle:package:37877257/4" value="SINSOOM2" x="114" y="38" smashed="yes"/>
-<element name="U$5" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" package="SINSOOM2" package3d_urn="urn:adsk.eagle:package:37877257/4" value="SINSOOM2" x="171" y="57" smashed="yes"/>
-<element name="U$6" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" package="SINSOOM2" package3d_urn="urn:adsk.eagle:package:37877257/4" value="SINSOOM2" x="171" y="19" smashed="yes"/>
-<element name="U$7" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" package="SINSOOM2" package3d_urn="urn:adsk.eagle:package:37877257/4" value="SINSOOM2" x="209" y="38" smashed="yes"/>
+<element name="U$1" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" package="SINSOOM2" package3d_urn="urn:adsk.eagle:package:37877257/5" value="SINSOOM2" x="19" y="38" smashed="yes"/>
+<element name="U$2" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" package="SINSOOM2" package3d_urn="urn:adsk.eagle:package:37877257/5" value="SINSOOM2" x="57" y="57" smashed="yes"/>
+<element name="U$3" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" package="SINSOOM2" package3d_urn="urn:adsk.eagle:package:37877257/5" value="SINSOOM2" x="57" y="19" smashed="yes"/>
+<element name="U$4" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" package="SINSOOM2" package3d_urn="urn:adsk.eagle:package:37877257/5" value="SINSOOM2" x="114" y="38" smashed="yes"/>
+<element name="U$5" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" package="SINSOOM2" package3d_urn="urn:adsk.eagle:package:37877257/5" value="SINSOOM2" x="171" y="57" smashed="yes"/>
+<element name="U$6" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" package="SINSOOM2" package3d_urn="urn:adsk.eagle:package:37877257/5" value="SINSOOM2" x="171" y="19" smashed="yes"/>
+<element name="U$7" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" package="SINSOOM2" package3d_urn="urn:adsk.eagle:package:37877257/5" value="SINSOOM2" x="209" y="38" smashed="yes"/>
 <element name="47" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" package="CHERRY" package3d_urn="urn:adsk.eagle:package:32198958/1" value="" x="123.5" y="9.5" smashed="yes" rot="SR0"/>
 <element name="D48" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" package="SOD-323" package3d_urn="urn:adsk.eagle:package:32198954/3" value="1N4148WS" x="133" y="20.5" smashed="yes" rot="MR0">
 <attribute name="CREATED_BY" value="PCBLayout.com" x="133" y="20.5" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -8396,6 +8398,7 @@ Please make sure your boards conform to these design rules.
 <via x="82.7" y="60.9" extent="1-16" drill="0.35"/>
 <via x="80.2" y="71.5" extent="1-16" drill="0.35"/>
 <via x="144.5" y="62.7" extent="1-16" drill="0.35"/>
+<via x="116.8" y="18.3" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="N$42">
 <contactref element="U1" pad="22"/>
