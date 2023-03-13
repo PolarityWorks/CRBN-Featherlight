@@ -199,7 +199,7 @@
 <rectangle x1="83.5736" y1="36.781" x2="106.2812" y2="41.4546" layer="41"/>
 <rectangle x1="83.7736" y1="36.781" x2="106.4812" y2="41.4546" layer="42"/>
 <wire x1="112" y1="22.5" x2="116" y2="22.5" width="2.54" layer="46"/>
-<text x="26.1" y="3" size="2.1844" layer="25">ALMN40 Rich Ying</text>
+<text x="26.1" y="3" size="2.1844" layer="25">ALU40 Rich Ying</text>
 <rectangle x1="56.8773" y1="1.127096875" x2="57.20241875" y2="1.132178125" layer="25"/>
 <rectangle x1="56.78078125" y1="1.132178125" x2="57.2989375" y2="1.137259375" layer="25"/>
 <rectangle x1="56.735059375" y1="1.137259375" x2="57.344659375" y2="1.142334375" layer="25"/>
@@ -3483,6 +3483,8 @@
 <rectangle x1="56.8773" y1="7.045296875" x2="57.20241875" y2="7.050378125" layer="25"/>
 <wire x1="112" y1="22.5" x2="116" y2="22.5" width="2.54" layer="41"/>
 <wire x1="112" y1="22.5" x2="116" y2="22.5" width="2.54" layer="42"/>
+<text x="138.7" y="55.9" size="2.54" layer="22" rot="MR90">+ -</text>
+<text x="160.4" y="57.6" size="2.54" layer="22" rot="MR90">+ -</text>
 </plain>
 <libraries>
 <library name="Volume_V1" urn="urn:adsk.eagle:library:32198814">
@@ -6967,12 +6969,12 @@ Please make sure your boards conform to these design rules.
 <board_group name="ALL"/>
 </groups>
 <elements>
-<element name="D1" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" package="SOD-323" package3d_urn="urn:adsk.eagle:package:32198954/3" value="1N4148WS" x="15.5" y="64" smashed="yes" rot="MR0" grouprefs="ALL">
-<attribute name="CREATED_BY" value="PCBLayout.com" x="15.5" y="64" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="1N4148WSFSTR-ND" x="15.5" y="64" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Incorporated" x="15.5" y="64" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="1N4148WS" x="15.5" y="64" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PACKAGE" value="SOD-323" x="15.5" y="64" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="D1" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" package="SOD-323" package3d_urn="urn:adsk.eagle:package:32198954/3" value="1N4148WS" x="18.6" y="60.8" smashed="yes" rot="MR0" grouprefs="ALL">
+<attribute name="CREATED_BY" value="PCBLayout.com" x="18.6" y="60.8" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1N4148WSFSTR-ND" x="18.6" y="60.8" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Incorporated" x="18.6" y="60.8" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="1N4148WS" x="18.6" y="60.8" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PACKAGE" value="SOD-323" x="18.6" y="60.8" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="12" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" package="CHERRY" package3d_urn="urn:adsk.eagle:package:32198958/1" value="" x="28.5" y="66.5" smashed="yes" rot="SR0" grouprefs="ALL"/>
 <element name="D2" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" package="SOD-323" package3d_urn="urn:adsk.eagle:package:32198954/3" value="1N4148WS" x="36" y="64" smashed="yes" rot="MR0" grouprefs="ALL">
@@ -7712,6 +7714,34 @@ Please make sure your boards conform to these design rules.
 <attribute name="NAME" x="114" y="73.25" size="1.27" layer="26" rot="MR180" align="center"/>
 <attribute name="VALUE" x="114" y="73.25" size="1.27" layer="28" rot="MR180" align="center"/>
 </element>
+<element name="D49" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" package="SOD-323" package3d_urn="urn:adsk.eagle:package:32198954/3" value="1N4148WS" x="65" y="40.5" smashed="yes" rot="MR270">
+<attribute name="CREATED_BY" value="PCBLayout.com" x="65" y="40.5" size="2.54" layer="28" rot="MR270" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1N4148WSFSTR-ND" x="65" y="40.5" size="2.54" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Incorporated" x="65" y="40.5" size="2.54" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="1N4148WS" x="65" y="40.5" size="2.54" layer="28" rot="MR270" display="off"/>
+<attribute name="PACKAGE" value="SOD-323" x="65" y="40.5" size="2.54" layer="28" rot="MR270" display="off"/>
+</element>
+<element name="D50" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" package="SOD-323" package3d_urn="urn:adsk.eagle:package:32198954/3" value="1N4148WS" x="67" y="40.5" smashed="yes" rot="MR270">
+<attribute name="CREATED_BY" value="PCBLayout.com" x="67" y="40.5" size="2.54" layer="28" rot="MR270" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1N4148WSFSTR-ND" x="67" y="40.5" size="2.54" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Incorporated" x="67" y="40.5" size="2.54" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="1N4148WS" x="67" y="40.5" size="2.54" layer="28" rot="MR270" display="off"/>
+<attribute name="PACKAGE" value="SOD-323" x="67" y="40.5" size="2.54" layer="28" rot="MR270" display="off"/>
+</element>
+<element name="D51" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" package="SOD-323" package3d_urn="urn:adsk.eagle:package:32198954/3" value="1N4148WS" x="69" y="40.5" smashed="yes" rot="MR270">
+<attribute name="CREATED_BY" value="PCBLayout.com" x="69" y="40.5" size="2.54" layer="28" rot="MR270" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1N4148WSFSTR-ND" x="69" y="40.5" size="2.54" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Incorporated" x="69" y="40.5" size="2.54" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="1N4148WS" x="69" y="40.5" size="2.54" layer="28" rot="MR270" display="off"/>
+<attribute name="PACKAGE" value="SOD-323" x="69" y="40.5" size="2.54" layer="28" rot="MR270" display="off"/>
+</element>
+<element name="D52" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" package="SOD-323" package3d_urn="urn:adsk.eagle:package:32198954/3" value="1N4148WS" x="71" y="40.5" smashed="yes" rot="MR270">
+<attribute name="CREATED_BY" value="PCBLayout.com" x="71" y="40.5" size="2.54" layer="28" rot="MR270" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1N4148WSFSTR-ND" x="71" y="40.5" size="2.54" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Incorporated" x="71" y="40.5" size="2.54" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="1N4148WS" x="71" y="40.5" size="2.54" layer="28" rot="MR270" display="off"/>
+<attribute name="PACKAGE" value="SOD-323" x="71" y="40.5" size="2.54" layer="28" rot="MR270" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="N$2">
@@ -7831,9 +7861,11 @@ Please make sure your boards conform to these design rules.
 <contactref element="24" pad="1"/>
 <contactref element="D16" pad="A"/>
 <wire x1="72.55" y1="52.58" x2="68.8241" y2="48.8541" width="0.254" layer="16"/>
-<wire x1="68.8241" y1="48.8541" x2="68.8241" y2="46.537325" width="0.254" layer="16"/>
-<wire x1="59.96" y1="37.673225" x2="59.96" y2="37" width="0.254" layer="16"/>
-<wire x1="68.8241" y1="46.537325" x2="59.96" y2="37.673225" width="0.254" layer="16"/>
+<wire x1="68.8241" y1="48.8541" x2="68.8241" y2="45.937325" width="0.254" layer="16"/>
+<wire x1="68.8241" y1="45.937325" x2="67.886775" y2="45" width="0.254" layer="16"/>
+<wire x1="67.886775" y1="45" x2="63.9" y2="45" width="0.254" layer="16"/>
+<wire x1="63.9" y1="45" x2="59.96" y2="41.06" width="0.254" layer="16"/>
+<wire x1="59.96" y1="41.06" x2="59.96" y2="37" width="0.254" layer="16"/>
 </signal>
 <signal name="N$17">
 <contactref element="25" pad="1"/>
@@ -8117,13 +8149,9 @@ Please make sure your boards conform to these design rules.
 <wire x1="14.51039375" y1="71.5" x2="18" y2="71.5" width="0.1524" layer="1"/>
 <wire x1="18" y1="71.5" x2="15.63" y2="71.5" width="0.1524" layer="16"/>
 <wire x1="15.63" y1="71.5" x2="15.55" y2="71.58" width="0.1524" layer="16"/>
-<wire x1="18" y1="71.5" x2="15.19355" y2="68.69355" width="0.1524" layer="16"/>
-<wire x1="14.42701875" y1="64.9496625" x2="14.46" y2="64.8925375" width="0.1524" layer="16"/>
-<wire x1="14.46" y1="64.8925375" x2="14.46" y2="64" width="0.1524" layer="16"/>
-<wire x1="15.19355" y1="68.69355" x2="14.96925625" y2="68.69355" width="0.1524" layer="16"/>
-<wire x1="13.4243" y1="65.95238125" x2="14.42701875" y2="64.9496625" width="0.1524" layer="16"/>
-<wire x1="14.96925625" y1="68.69355" x2="13.4243" y2="67.14859375" width="0.1524" layer="16"/>
-<wire x1="13.4243" y1="67.14859375" x2="13.4243" y2="65.95238125" width="0.1524" layer="16"/>
+<wire x1="18" y1="71.5" x2="17.9243" y2="71.4243" width="0.1524" layer="16"/>
+<wire x1="17.9243" y1="71.4243" x2="17.9243" y2="61.1643" width="0.1524" layer="16"/>
+<wire x1="17.56" y1="60.8" x2="17.9243" y2="61.1643" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$49">
 <contactref element="D37" pad="A"/>
@@ -9349,9 +9377,11 @@ Please make sure your boards conform to these design rules.
 <contactref element="D4" pad="C"/>
 <contactref element="D3" pad="C"/>
 <contactref element="D2" pad="C"/>
-<wire x1="16.54" y1="64" x2="18" y2="64" width="0.254" layer="16"/>
-<via x="18" y="64" extent="1-16" drill="0.35"/>
-<wire x1="18" y1="64" x2="39" y2="64" width="0.254" layer="1"/>
+<wire x1="19.8" y1="62.8" x2="19.8" y2="60.96" width="0.254" layer="16"/>
+<wire x1="19.8" y1="60.96" x2="19.64" y2="60.8" width="0.254" layer="16"/>
+<via x="19.8" y="62.8" extent="1-16" drill="0.35"/>
+<wire x1="39" y1="64" x2="21" y2="64" width="0.254" layer="1"/>
+<wire x1="21" y1="64" x2="19.8" y2="62.8" width="0.254" layer="1"/>
 <via x="95" y="64" extent="1-16" drill="0.35"/>
 <wire x1="39" y1="64" x2="55" y2="64" width="0.254" layer="1"/>
 <wire x1="55" y1="64" x2="75.5" y2="64" width="0.254" layer="1"/>
