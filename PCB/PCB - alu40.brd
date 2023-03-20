@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.000833" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
@@ -13730,7 +13730,7 @@ Please make sure your boards conform to these design rules.
 <attribute name="SPICEPREFIX" value="R" x="170.6922" y="93.2792" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="157.535" y="54.595" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="200" x="150.7" y="61.1" smashed="yes" rot="MR0">
+<element name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1.2k" x="150.7" y="61.1" smashed="yes" rot="MR0">
 <attribute name="NAME" x="151.335" y="61.735" size="1.27" layer="26" rot="MR0"/>
 <attribute name="POPULARITY" value="70" x="169.115" y="93.0024" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="169.115" y="93.0024" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -13770,7 +13770,7 @@ Please make sure your boards conform to these design rules.
 <attribute name="NAME" x="84.881" y="75.516" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="84.881" y="72.849" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0"/>
 </element>
-<element name="LED1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="" x="112" y="20" smashed="yes" rot="MR90">
+<element name="LED1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="RED" x="112" y="20" smashed="yes" rot="MR90">
 <attribute name="NAME" x="110.73" y="18.73" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="110.73" y="22.54" size="1.27" layer="28" rot="MR180"/>
 </element>
