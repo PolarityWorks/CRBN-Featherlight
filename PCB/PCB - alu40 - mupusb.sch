@@ -21902,12 +21902,10 @@ This setting can be found in the board layout editor under the Edit menu.  Selec
 <part name="U$9" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" deviceset="STAB-2U" device="" package3d_urn="urn:adsk.eagle:package:32198944/1"/>
 <part name="U$10" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" deviceset="STAB-2U" device="" package3d_urn="urn:adsk.eagle:package:32198944/1"/>
 <part name="11ENC" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" deviceset="ENCODER" device="HOLE" package3d_urn="urn:adsk.eagle:package:32198968/1"/>
-<part name="112ENC" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" deviceset="ENCODER" device="HOLE" package3d_urn="urn:adsk.eagle:package:32198968/1"/>
 <part name="41ENC\" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" deviceset="ENCODER" device="HOLE" package3d_urn="urn:adsk.eagle:package:32198968/1"/>
 <part name="412ENC" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" deviceset="ENCODER" device="HOLE" package3d_urn="urn:adsk.eagle:package:32198968/1"/>
 <part name="GND5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="GND14" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND15" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="45-2" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" deviceset="CHERRY" device="" package3d_urn="urn:adsk.eagle:package:32198958/1"/>
 <part name="48-2" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" deviceset="CHERRY" device="" package3d_urn="urn:adsk.eagle:package:32198958/1"/>
@@ -22395,7 +22393,6 @@ This setting can be found in the board layout editor under the Edit menu.  Selec
 <instance part="U$9" gate="G$1" x="-259.08" y="-78.74" smashed="yes"/>
 <instance part="U$10" gate="G$1" x="-259.08" y="-81.28" smashed="yes"/>
 <instance part="11ENC" gate="G$1" x="0" y="12.7" smashed="yes"/>
-<instance part="112ENC" gate="G$1" x="279.4" y="12.7" smashed="yes"/>
 <instance part="41ENC\" gate="G$1" x="0" y="-139.7" smashed="yes"/>
 <instance part="412ENC" gate="G$1" x="279.4" y="-139.7" smashed="yes"/>
 <instance part="GND5" gate="1" x="0" y="-121.92" smashed="yes" rot="R180">
@@ -22403,9 +22400,6 @@ This setting can be found in the board layout editor under the Edit menu.  Selec
 </instance>
 <instance part="GND7" gate="1" x="0" y="30.48" smashed="yes" rot="R180">
 <attribute name="VALUE" x="0" y="30.734" size="1.778" layer="96" rot="R180" align="top-center"/>
-</instance>
-<instance part="GND14" gate="1" x="279.4" y="30.48" smashed="yes" rot="R180">
-<attribute name="VALUE" x="279.4" y="30.734" size="1.778" layer="96" rot="R180" align="top-center"/>
 </instance>
 <instance part="GND15" gate="1" x="279.4" y="-121.92" smashed="yes" rot="R180">
 <attribute name="VALUE" x="279.4" y="-121.666" size="1.778" layer="96" rot="R180" align="top-center"/>
@@ -22605,7 +22599,6 @@ This setting can be found in the board layout editor under the Edit menu.  Selec
 <pinref part="D12" gate="G$1" pin="A"/>
 <wire x1="269.24" y1="0" x2="269.24" y2="-2.54" width="0.1524" layer="91"/>
 <pinref part="112" gate="SW" pin="1"/>
-<pinref part="112ENC" gate="G$1" pin="S1"/>
 <wire x1="266.7" y1="10.16" x2="266.7" y2="0" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="0" x2="269.24" y2="0" width="0.1524" layer="91"/>
 <junction x="269.24" y="0"/>
@@ -23210,10 +23203,6 @@ This setting can be found in the board layout editor under the Edit menu.  Selec
 <segment>
 <pinref part="11ENC" gate="G$1" pin="GND"/>
 <pinref part="GND7" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="112ENC" gate="G$1" pin="GND"/>
-<pinref part="GND14" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="412ENC" gate="G$1" pin="GND"/>
@@ -23863,7 +23852,6 @@ This setting can be found in the board layout editor under the Edit menu.  Selec
 <wire x1="292.1" y1="-142.24" x2="292.1" y2="-137.16" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="-137.16" x2="289.56" y2="-137.16" width="0.1524" layer="91"/>
 <junction x="289.56" y="-137.16"/>
-<pinref part="112ENC" gate="G$1" pin="S2"/>
 <wire x1="292.1" y1="10.16" x2="292.1" y2="0" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="0" x2="289.56" y2="0" width="0.1524" layer="91"/>
 <junction x="289.56" y="0"/>
@@ -24144,12 +24132,6 @@ This setting can be found in the board layout editor under the Edit menu.  Selec
 <label x="-170.18" y="-78.74" size="1.778" layer="95" rot="R270"/>
 </segment>
 <segment>
-<pinref part="112ENC" gate="G$1" pin="A"/>
-<wire x1="274.32" y1="27.94" x2="274.32" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="274.32" y1="35.56" x2="274.32" y2="33.02" width="0.1524" layer="91"/>
-<label x="274.32" y="35.56" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="11ENC" gate="G$1" pin="A"/>
 <wire x1="-5.08" y1="27.94" x2="-5.08" y2="33.02" width="0.1524" layer="91"/>
 <label x="-5.08" y="33.02" size="1.778" layer="95"/>
@@ -24170,11 +24152,6 @@ This setting can be found in the board layout editor under the Edit menu.  Selec
 <pinref part="U1" gate="A" pin="P1.09"/>
 <wire x1="-185.42" y1="22.86" x2="-185.42" y2="25.4" width="0.1524" layer="91"/>
 <label x="-185.42" y="25.4" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="112ENC" gate="G$1" pin="B"/>
-<wire x1="284.48" y1="27.94" x2="284.48" y2="35.56" width="0.1524" layer="91"/>
-<label x="284.48" y="35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="11ENC" gate="G$1" pin="B"/>
