@@ -490,386 +490,6 @@
 <smd name="1" x="6.05" y="5.08" dx="2.5" dy="2.55" layer="16" roundness="100" rot="R90"/>
 <smd name="2" x="-7.37" y="2.54" dx="2.5" dy="2.55" layer="16" roundness="100" rot="R90"/>
 </package>
-<package name="TACTILE_SWITCH_SMD_4.6X2.8MM" urn="urn:adsk.eagle:footprint:40113/1" library_version="8" library_locally_modified="yes">
-<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - SMD, 4.6 x 2.8mm&lt;/h3&gt;
-&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.ck-components.com/media/1479/kmr2.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
-<smd name="3" x="2.05" y="0.8" dx="0.9" dy="1" layer="1"/>
-<smd name="2" x="2.05" y="-0.8" dx="0.9" dy="1" layer="1"/>
-<smd name="1" x="-2.05" y="-0.8" dx="0.9" dy="1" layer="1"/>
-<smd name="4" x="-2.05" y="0.8" dx="0.9" dy="1" layer="1"/>
-<wire x1="-2.1" y1="1.4" x2="-2.1" y2="-1.4" width="0.127" layer="51"/>
-<wire x1="2.1" y1="-1.4" x2="2.1" y2="1.4" width="0.127" layer="51"/>
-<wire x1="-2.1" y1="1.4" x2="2.1" y2="1.4" width="0.127" layer="51"/>
-<wire x1="-2.1" y1="-1.4" x2="2.1" y2="-1.4" width="0.127" layer="51"/>
-<wire x1="1.338" y1="-1.4" x2="-1.338" y2="-1.4" width="0.2032" layer="21"/>
-<wire x1="-1.338" y1="1.4" x2="1.338" y2="1.4" width="0.2032" layer="21"/>
-<wire x1="-2.1" y1="0.13" x2="-2.1" y2="-0.13" width="0.2032" layer="21"/>
-<wire x1="2.1" y1="-0.13" x2="2.1" y2="0.13" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="0.805" width="0.127" layer="21"/>
-<rectangle x1="-2.3" y1="0.5" x2="-2.1" y2="1.1" layer="51"/>
-<rectangle x1="-2.3" y1="-1.1" x2="-2.1" y2="-0.5" layer="51"/>
-<rectangle x1="2.1" y1="-1.1" x2="2.3" y2="-0.5" layer="51" rot="R180"/>
-<rectangle x1="2.1" y1="0.5" x2="2.3" y2="1.1" layer="51" rot="R180"/>
-<text x="0" y="1.524" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-1.524" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-</package>
-<package name="TACTILE_SWITCH_PTH_6.0MM" urn="urn:adsk.eagle:footprint:40103/1" library_version="8" library_locally_modified="yes">
-<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - PTH, 6.0mm Square&lt;/h3&gt;
-&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.omron.com/ecb/products/pdf/en-b3f.pdf"&gt;Datasheet&lt;/a&gt; (B3F-1000)&lt;/p&gt;</description>
-<wire x1="3.048" y1="1.016" x2="3.048" y2="2.54" width="0.2032" layer="51"/>
-<wire x1="3.048" y1="2.54" x2="2.54" y2="3.048" width="0.2032" layer="51"/>
-<wire x1="2.54" y1="-3.048" x2="3.048" y2="-2.54" width="0.2032" layer="51"/>
-<wire x1="3.048" y1="-2.54" x2="3.048" y2="-1.016" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="3.048" x2="-3.048" y2="2.54" width="0.2032" layer="51"/>
-<wire x1="-3.048" y1="2.54" x2="-3.048" y2="1.016" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="-3.048" x2="-3.048" y2="-2.54" width="0.2032" layer="51"/>
-<wire x1="-3.048" y1="-2.54" x2="-3.048" y2="-1.016" width="0.2032" layer="51"/>
-<wire x1="2.54" y1="-3.048" x2="2.159" y2="-3.048" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="-3.048" x2="-2.159" y2="-3.048" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="3.048" x2="-2.159" y2="3.048" width="0.2032" layer="51"/>
-<wire x1="2.54" y1="3.048" x2="2.159" y2="3.048" width="0.2032" layer="51"/>
-<wire x1="2.159" y1="3.048" x2="-2.159" y2="3.048" width="0.2032" layer="21"/>
-<wire x1="-2.159" y1="-3.048" x2="2.159" y2="-3.048" width="0.2032" layer="21"/>
-<wire x1="3.048" y1="0.998" x2="3.048" y2="-1.016" width="0.2032" layer="21"/>
-<wire x1="-3.048" y1="1.028" x2="-3.048" y2="-1.016" width="0.2032" layer="21"/>
-<wire x1="-2.54" y1="1.27" x2="-2.54" y2="0.508" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="-0.508" x2="-2.54" y2="-1.27" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="0.508" x2="-2.159" y2="-0.381" width="0.2032" layer="51"/>
-<circle x="0" y="0" radius="1.778" width="0.2032" layer="21"/>
-<pad name="1" x="-3.2512" y="2.2606" drill="1.016" diameter="1.8796"/>
-<pad name="2" x="3.2512" y="2.2606" drill="1.016" diameter="1.8796"/>
-<pad name="3" x="-3.2512" y="-2.2606" drill="1.016" diameter="1.8796"/>
-<pad name="4" x="3.2512" y="-2.2606" drill="1.016" diameter="1.8796"/>
-<text x="0" y="3.302" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-3.175" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-</package>
-<package name="TACTILE_SWITCH_SMD_4.5MM" urn="urn:adsk.eagle:footprint:40104/1" library_version="8" library_locally_modified="yes">
-<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - SMD, 4.5mm Square&lt;/h3&gt;
-&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://spec_sheets.e-switch.com/specs/P010338.pdf"&gt;Dimensional Drawing&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="1.905" y1="1.27" x2="1.905" y2="0.445" width="0.127" layer="51"/>
-<wire x1="1.905" y1="0.445" x2="2.16" y2="-0.01" width="0.127" layer="51"/>
-<wire x1="1.905" y1="-0.23" x2="1.905" y2="-1.115" width="0.127" layer="51"/>
-<wire x1="-2.25" y1="2.25" x2="2.25" y2="2.25" width="0.127" layer="51"/>
-<wire x1="2.25" y1="2.25" x2="2.25" y2="-2.25" width="0.127" layer="51"/>
-<wire x1="2.25" y1="-2.25" x2="-2.25" y2="-2.25" width="0.127" layer="51"/>
-<wire x1="-2.25" y1="-2.25" x2="-2.25" y2="2.25" width="0.127" layer="51"/>
-<wire x1="-2.2" y1="0.8" x2="-2.2" y2="-0.8" width="0.2032" layer="21"/>
-<wire x1="1.3" y1="2.2" x2="-1.3" y2="2.2" width="0.2032" layer="21"/>
-<wire x1="2.2" y1="-0.8" x2="2.2" y2="0.8" width="0.2032" layer="21"/>
-<wire x1="-1.3" y1="-2.2" x2="1.3" y2="-2.2" width="0.2032" layer="21"/>
-<wire x1="2.2" y1="0.8" x2="1.8" y2="0.8" width="0.2032" layer="21"/>
-<wire x1="2.2" y1="-0.8" x2="1.8" y2="-0.8" width="0.2032" layer="21"/>
-<wire x1="-1.8" y1="0.8" x2="-2.2" y2="0.8" width="0.2032" layer="21"/>
-<wire x1="-1.8" y1="-0.8" x2="-2.2" y2="-0.8" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="1.27" width="0.2032" layer="21"/>
-<smd name="1" x="2.225" y="1.75" dx="1.1" dy="0.7" layer="1" rot="R90"/>
-<smd name="2" x="2.225" y="-1.75" dx="1.1" dy="0.7" layer="1" rot="R90"/>
-<smd name="3" x="-2.225" y="-1.75" dx="1.1" dy="0.7" layer="1" rot="R90"/>
-<smd name="4" x="-2.225" y="1.75" dx="1.1" dy="0.7" layer="1" rot="R90"/>
-<text x="0" y="2.413" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-2.413" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-</package>
-<package name="TACTILE_SWITCH_PTH_12MM" urn="urn:adsk.eagle:footprint:40105/1" library_version="8" library_locally_modified="yes">
-<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - PTH, 12mm Square&lt;/h3&gt;
-&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.omron.com/ecb/products/pdf/en-b3f.pdf"&gt;Datasheet&lt;/a&gt; (B3F-5050)&lt;/p&gt;</description>
-<wire x1="5" y1="-1.3" x2="5" y2="-0.7" width="0.2032" layer="51"/>
-<wire x1="5" y1="-0.7" x2="4.5" y2="-0.2" width="0.2032" layer="51"/>
-<wire x1="5" y1="0.2" x2="5" y2="1" width="0.2032" layer="51"/>
-<wire x1="-6" y1="4" x2="-6" y2="5" width="0.2032" layer="21"/>
-<wire x1="-5" y1="6" x2="5" y2="6" width="0.2032" layer="21"/>
-<wire x1="6" y1="5" x2="6" y2="4" width="0.2032" layer="21"/>
-<wire x1="6" y1="1" x2="6" y2="-1" width="0.2032" layer="21"/>
-<wire x1="6" y1="-4" x2="6" y2="-5" width="0.2032" layer="21"/>
-<wire x1="5" y1="-6" x2="-5" y2="-6" width="0.2032" layer="21"/>
-<wire x1="-6" y1="-5" x2="-6" y2="-4" width="0.2032" layer="21"/>
-<wire x1="-6" y1="-1" x2="-6" y2="1" width="0.2032" layer="21"/>
-<wire x1="-6" y1="5" x2="-5" y2="6" width="0.2032" layer="21" curve="-90"/>
-<wire x1="5" y1="6" x2="6" y2="5" width="0.2032" layer="21" curve="-90"/>
-<wire x1="6" y1="-5" x2="5" y2="-6" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-5" y1="-6" x2="-6" y2="-5" width="0.2032" layer="21" curve="-90"/>
-<circle x="0" y="0" radius="3.5" width="0.2032" layer="21"/>
-<circle x="-4.5" y="4.5" radius="0.3" width="0.7" layer="21"/>
-<circle x="4.5" y="4.5" radius="0.3" width="0.7" layer="21"/>
-<circle x="4.5" y="-4.5" radius="0.3" width="0.7" layer="21"/>
-<circle x="-4.5" y="-4.5" radius="0.3" width="0.7" layer="21"/>
-<pad name="4" x="-6.25" y="2.5" drill="1.2" diameter="2.159"/>
-<pad name="2" x="-6.25" y="-2.5" drill="1.2" diameter="2.159"/>
-<pad name="1" x="6.25" y="-2.5" drill="1.2" diameter="2.159"/>
-<pad name="3" x="6.25" y="2.5" drill="1.2" diameter="2.159"/>
-<text x="0" y="6.223" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-6.223" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-</package>
-<package name="TACTILE_SWITCH_SMD_6.0X3.5MM" urn="urn:adsk.eagle:footprint:40106/1" library_version="8" library_locally_modified="yes">
-<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - SMD, 6.0 x 3.5 mm&lt;/h3&gt;
-&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Components/1101.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="-3" y1="1.1" x2="-3" y2="-1.1" width="0.127" layer="51"/>
-<wire x1="3" y1="1.1" x2="3" y2="-1.1" width="0.127" layer="51"/>
-<wire x1="-2.75" y1="1.75" x2="-3" y2="1.5" width="0.2032" layer="21" curve="90"/>
-<wire x1="-2.75" y1="1.75" x2="2.75" y2="1.75" width="0.2032" layer="21"/>
-<wire x1="2.75" y1="1.75" x2="3" y2="1.5" width="0.2032" layer="21" curve="-90"/>
-<wire x1="3" y1="-1.5" x2="2.75" y2="-1.75" width="0.2032" layer="21" curve="-90"/>
-<wire x1="2.75" y1="-1.75" x2="-2.75" y2="-1.75" width="0.2032" layer="21"/>
-<wire x1="-3" y1="-1.5" x2="-2.75" y2="-1.75" width="0.2032" layer="21" curve="90"/>
-<wire x1="-3" y1="-1.5" x2="-3" y2="-1.1" width="0.2032" layer="21"/>
-<wire x1="-3" y1="1.1" x2="-3" y2="1.5" width="0.2032" layer="21"/>
-<wire x1="3" y1="1.1" x2="3" y2="1.5" width="0.2032" layer="21"/>
-<wire x1="3" y1="-1.5" x2="3" y2="-1.1" width="0.2032" layer="21"/>
-<wire x1="-1.5" y1="0.75" x2="1.5" y2="0.75" width="0.2032" layer="21"/>
-<wire x1="1.5" y1="-0.75" x2="-1.5" y2="-0.75" width="0.2032" layer="21"/>
-<wire x1="-1.5" y1="-0.75" x2="-1.5" y2="0.75" width="0.2032" layer="21"/>
-<wire x1="1.5" y1="-0.75" x2="1.5" y2="0.75" width="0.2032" layer="21"/>
-<wire x1="-2" y1="0" x2="-1" y2="0" width="0.127" layer="51"/>
-<wire x1="-1" y1="0" x2="0.1" y2="0.5" width="0.127" layer="51"/>
-<wire x1="0.3" y1="0" x2="2" y2="0" width="0.127" layer="51"/>
-<smd name="1" x="-3.15" y="0" dx="2.3" dy="1.6" layer="1" rot="R180"/>
-<smd name="2" x="3.15" y="0" dx="2.3" dy="1.6" layer="1" rot="R180"/>
-<text x="0" y="1.905" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-1.905" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-</package>
-<package name="TACTILE_SWITCH_SMD_6.2MM_TALL" urn="urn:adsk.eagle:footprint:40107/1" library_version="8" library_locally_modified="yes">
-<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - SMD, 6.2mm Square&lt;/h3&gt;
-&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.apem.com/files/apem/brochures/ADTS6-ADTSM-KTSC6.pdf"&gt;Datasheet&lt;/a&gt; (ADTSM63NVTR)&lt;/p&gt;</description>
-<wire x1="-3" y1="-3" x2="3" y2="-3" width="0.2032" layer="21"/>
-<wire x1="3" y1="-3" x2="3" y2="3" width="0.2032" layer="21"/>
-<wire x1="3" y1="3" x2="-3" y2="3" width="0.2032" layer="21"/>
-<wire x1="-3" y1="3" x2="-3" y2="-3" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="1.75" width="0.2032" layer="21"/>
-<smd name="A1" x="-3.975" y="-2.25" dx="1.3" dy="1.55" layer="1" rot="R90"/>
-<smd name="A2" x="3.975" y="-2.25" dx="1.3" dy="1.55" layer="1" rot="R90"/>
-<smd name="B1" x="-3.975" y="2.25" dx="1.3" dy="1.55" layer="1" rot="R90"/>
-<smd name="B2" x="3.975" y="2.25" dx="1.3" dy="1.55" layer="1" rot="R90"/>
-<text x="0" y="3.175" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-3.175" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-</package>
-<package name="TACTILE_SWITCH_PTH_RIGHT_ANGLE_KIT" urn="urn:adsk.eagle:footprint:40108/1" library_version="8" library_locally_modified="yes">
-<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - PTH, Right-angle&lt;/h3&gt;
-&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://cdn.sparkfun.com/datasheets/Components/Switches/SW016.JPG"&gt;Dimensional Drawing&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="1.5" y1="-3.8" x2="-1.5" y2="-3.8" width="0.127" layer="51"/>
-<wire x1="-3.65" y1="-2" x2="-3.65" y2="3.5" width="0.127" layer="51"/>
-<wire x1="-3.65" y1="3.5" x2="-3" y2="3.5" width="0.127" layer="51"/>
-<wire x1="3" y1="3.5" x2="3.65" y2="3.5" width="0.127" layer="51"/>
-<wire x1="3.65" y1="3.5" x2="3.65" y2="-2" width="0.127" layer="51"/>
-<wire x1="-3" y1="2" x2="3" y2="2" width="0.127" layer="51"/>
-<wire x1="-3" y1="2" x2="-3" y2="3.5" width="0.127" layer="51"/>
-<wire x1="3" y1="2" x2="3" y2="3.5" width="0.127" layer="51"/>
-<wire x1="-3.65" y1="-2" x2="-1.5" y2="-2" width="0.127" layer="51"/>
-<wire x1="-1.5" y1="-2" x2="1.5" y2="-2" width="0.127" layer="51"/>
-<wire x1="1.5" y1="-2" x2="3.65" y2="-2" width="0.127" layer="51"/>
-<wire x1="1.5" y1="-2" x2="1.5" y2="-3.8" width="0.127" layer="51"/>
-<wire x1="-1.5" y1="-2" x2="-1.5" y2="-3.8" width="0.127" layer="51"/>
-<wire x1="-3.777" y1="1" x2="-3.777" y2="-2.127" width="0.2032" layer="21"/>
-<wire x1="-3.777" y1="-2.127" x2="3.777" y2="-2.127" width="0.2032" layer="21"/>
-<wire x1="3.777" y1="-2.127" x2="3.777" y2="1" width="0.2032" layer="21"/>
-<wire x1="2" y1="2.127" x2="-2" y2="2.127" width="0.2032" layer="21"/>
-<pad name="ANCHOR1" x="-3.5" y="2.5" drill="1.2" diameter="2.2" stop="no"/>
-<pad name="ANCHOR2" x="3.5" y="2.5" drill="1.2" diameter="2.2" stop="no"/>
-<pad name="1" x="-2.5" y="0" drill="0.8" diameter="1.7" stop="no"/>
-<pad name="2" x="2.5" y="0" drill="0.8" diameter="1.7" stop="no"/>
-<circle x="2.5" y="0" radius="0.4445" width="0" layer="29"/>
-<circle x="-2.5" y="0" radius="0.4445" width="0" layer="29"/>
-<circle x="-3.5" y="2.5" radius="0.635" width="0" layer="29"/>
-<circle x="3.5" y="2.5" radius="0.635" width="0" layer="29"/>
-<circle x="-3.5" y="2.5" radius="1.143" width="0" layer="30"/>
-<circle x="2.5" y="0" radius="0.889" width="0" layer="30"/>
-<circle x="-2.5" y="0" radius="0.889" width="0" layer="30"/>
-<circle x="3.5" y="2.5" radius="1.143" width="0" layer="30"/>
-<text x="0" y="2.286" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-2.286" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-</package>
-<package name="TACTILE_SWITCH_SMD_12MM" urn="urn:adsk.eagle:footprint:40109/1" library_version="8" library_locally_modified="yes">
-<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - SMD, 12mm Square&lt;/h3&gt;
-&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://cdn.sparkfun.com/datasheets/Components/Switches/N301102.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="5" y1="-1.3" x2="5" y2="-0.7" width="0.2032" layer="51"/>
-<wire x1="5" y1="-0.7" x2="4.5" y2="-0.2" width="0.2032" layer="51"/>
-<wire x1="5" y1="0.2" x2="5" y2="1" width="0.2032" layer="51"/>
-<wire x1="-6" y1="4" x2="-6" y2="5" width="0.2032" layer="21"/>
-<wire x1="-5" y1="6" x2="5" y2="6" width="0.2032" layer="21"/>
-<wire x1="6" y1="5" x2="6" y2="4" width="0.2032" layer="21"/>
-<wire x1="6" y1="1" x2="6" y2="-1" width="0.2032" layer="21"/>
-<wire x1="6" y1="-4" x2="6" y2="-5" width="0.2032" layer="21"/>
-<wire x1="5" y1="-6" x2="-5" y2="-6" width="0.2032" layer="21"/>
-<wire x1="-6" y1="-5" x2="-6" y2="-4" width="0.2032" layer="21"/>
-<wire x1="-6" y1="-1" x2="-6" y2="1" width="0.2032" layer="21"/>
-<wire x1="-6" y1="-5" x2="-5" y2="-6" width="0.2032" layer="21"/>
-<wire x1="6" y1="-5" x2="5" y2="-6" width="0.2032" layer="21"/>
-<wire x1="6" y1="5" x2="5" y2="6" width="0.2032" layer="21"/>
-<wire x1="-5" y1="6" x2="-6" y2="5" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="3.5" width="0.2032" layer="21"/>
-<circle x="-4.5" y="4.5" radius="0.3" width="0.7" layer="21"/>
-<circle x="4.5" y="4.5" radius="0.3" width="0.7" layer="21"/>
-<circle x="4.5" y="-4.5" radius="0.3" width="0.7" layer="21"/>
-<circle x="-4.5" y="-4.5" radius="0.3" width="0.7" layer="21"/>
-<smd name="4" x="-6.975" y="2.5" dx="1.6" dy="1.55" layer="1"/>
-<smd name="2" x="-6.975" y="-2.5" dx="1.6" dy="1.55" layer="1"/>
-<smd name="1" x="6.975" y="-2.5" dx="1.6" dy="1.55" layer="1"/>
-<smd name="3" x="6.975" y="2.5" dx="1.6" dy="1.55" layer="1"/>
-<text x="0" y="6.223" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-6.223" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-</package>
-<package name="TACTILE_SWITCH_PTH_6.0MM_KIT" urn="urn:adsk.eagle:footprint:40110/1" library_version="8" library_locally_modified="yes">
-<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - PTH, 6.0mm Square&lt;/h3&gt;
-&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;Warning:&lt;/b&gt; This is the KIT version of this package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.omron.com/ecb/products/pdf/en-b3f.pdf"&gt;Datasheet&lt;/a&gt; (B3F-1000)&lt;/p&gt;</description>
-<wire x1="3.048" y1="1.016" x2="3.048" y2="2.54" width="0.2032" layer="51"/>
-<wire x1="3.048" y1="2.54" x2="2.54" y2="3.048" width="0.2032" layer="51"/>
-<wire x1="2.54" y1="-3.048" x2="3.048" y2="-2.54" width="0.2032" layer="51"/>
-<wire x1="3.048" y1="-2.54" x2="3.048" y2="-1.016" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="3.048" x2="-3.048" y2="2.54" width="0.2032" layer="51"/>
-<wire x1="-3.048" y1="2.54" x2="-3.048" y2="1.016" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="-3.048" x2="-3.048" y2="-2.54" width="0.2032" layer="51"/>
-<wire x1="-3.048" y1="-2.54" x2="-3.048" y2="-1.016" width="0.2032" layer="51"/>
-<wire x1="2.54" y1="-3.048" x2="2.159" y2="-3.048" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="-3.048" x2="-2.159" y2="-3.048" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="3.048" x2="-2.159" y2="3.048" width="0.2032" layer="51"/>
-<wire x1="2.54" y1="3.048" x2="2.159" y2="3.048" width="0.2032" layer="51"/>
-<wire x1="2.159" y1="3.048" x2="-2.159" y2="3.048" width="0.2032" layer="21"/>
-<wire x1="-2.159" y1="-3.048" x2="2.159" y2="-3.048" width="0.2032" layer="21"/>
-<wire x1="3.048" y1="0.998" x2="3.048" y2="-1.016" width="0.2032" layer="21"/>
-<wire x1="-3.048" y1="1.028" x2="-3.048" y2="-1.016" width="0.2032" layer="21"/>
-<wire x1="-2.54" y1="1.27" x2="-2.54" y2="0.508" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="-0.508" x2="-2.54" y2="-1.27" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="0.508" x2="-2.159" y2="-0.381" width="0.2032" layer="51"/>
-<circle x="0" y="0" radius="1.778" width="0.2032" layer="21"/>
-<pad name="1" x="-3.2512" y="2.2606" drill="1.016" diameter="1.8796" stop="no"/>
-<pad name="2" x="3.2512" y="2.2606" drill="1.016" diameter="1.8796" stop="no"/>
-<pad name="3" x="-3.2512" y="-2.2606" drill="1.016" diameter="1.8796" stop="no"/>
-<pad name="4" x="3.2512" y="-2.2606" drill="1.016" diameter="1.8796" stop="no"/>
-<polygon width="0.127" layer="30">
-<vertex x="-3.2664" y="3.142"/>
-<vertex x="-3.2589" y="3.1445" curve="89.986886"/>
-<vertex x="-4.1326" y="2.286"/>
-<vertex x="-4.1351" y="2.2657" curve="90.00652"/>
-<vertex x="-3.2563" y="1.392"/>
-<vertex x="-3.2487" y="1.3869" curve="90.006616"/>
-<vertex x="-2.3826" y="2.2403"/>
-<vertex x="-2.3775" y="2.2683" curve="89.98711"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="-3.2462" y="2.7026"/>
-<vertex x="-3.2589" y="2.7051" curve="90.026544"/>
-<vertex x="-3.6881" y="2.2733"/>
-<vertex x="-3.6881" y="2.2632" curve="89.974074"/>
-<vertex x="-3.2562" y="1.8213"/>
-<vertex x="-3.2259" y="1.8186" curve="90.051271"/>
-<vertex x="-2.8093" y="2.2658"/>
-<vertex x="-2.8093" y="2.2606" curve="90.012964"/>
-</polygon>
-<polygon width="0.127" layer="30">
-<vertex x="3.2411" y="3.1395"/>
-<vertex x="3.2486" y="3.142" curve="89.986886"/>
-<vertex x="2.3749" y="2.2835"/>
-<vertex x="2.3724" y="2.2632" curve="90.00652"/>
-<vertex x="3.2512" y="1.3895"/>
-<vertex x="3.2588" y="1.3844" curve="90.006616"/>
-<vertex x="4.1249" y="2.2378"/>
-<vertex x="4.13" y="2.2658" curve="89.98711"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="3.2613" y="2.7001"/>
-<vertex x="3.2486" y="2.7026" curve="90.026544"/>
-<vertex x="2.8194" y="2.2708"/>
-<vertex x="2.8194" y="2.2607" curve="89.974074"/>
-<vertex x="3.2513" y="1.8188"/>
-<vertex x="3.2816" y="1.8161" curve="90.051271"/>
-<vertex x="3.6982" y="2.2633"/>
-<vertex x="3.6982" y="2.2581" curve="90.012964"/>
-</polygon>
-<polygon width="0.127" layer="30">
-<vertex x="-3.2613" y="-1.3868"/>
-<vertex x="-3.2538" y="-1.3843" curve="89.986886"/>
-<vertex x="-4.1275" y="-2.2428"/>
-<vertex x="-4.13" y="-2.2631" curve="90.00652"/>
-<vertex x="-3.2512" y="-3.1368"/>
-<vertex x="-3.2436" y="-3.1419" curve="90.006616"/>
-<vertex x="-2.3775" y="-2.2885"/>
-<vertex x="-2.3724" y="-2.2605" curve="89.98711"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="-3.2411" y="-1.8262"/>
-<vertex x="-3.2538" y="-1.8237" curve="90.026544"/>
-<vertex x="-3.683" y="-2.2555"/>
-<vertex x="-3.683" y="-2.2656" curve="89.974074"/>
-<vertex x="-3.2511" y="-2.7075"/>
-<vertex x="-3.2208" y="-2.7102" curve="90.051271"/>
-<vertex x="-2.8042" y="-2.263"/>
-<vertex x="-2.8042" y="-2.2682" curve="90.012964"/>
-</polygon>
-<polygon width="0.127" layer="30">
-<vertex x="3.2411" y="-1.3843"/>
-<vertex x="3.2486" y="-1.3818" curve="89.986886"/>
-<vertex x="2.3749" y="-2.2403"/>
-<vertex x="2.3724" y="-2.2606" curve="90.00652"/>
-<vertex x="3.2512" y="-3.1343"/>
-<vertex x="3.2588" y="-3.1394" curve="90.006616"/>
-<vertex x="4.1249" y="-2.286"/>
-<vertex x="4.13" y="-2.258" curve="89.98711"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="3.2613" y="-1.8237"/>
-<vertex x="3.2486" y="-1.8212" curve="90.026544"/>
-<vertex x="2.8194" y="-2.253"/>
-<vertex x="2.8194" y="-2.2631" curve="89.974074"/>
-<vertex x="3.2513" y="-2.705"/>
-<vertex x="3.2816" y="-2.7077" curve="90.051271"/>
-<vertex x="3.6982" y="-2.2605"/>
-<vertex x="3.6982" y="-2.2657" curve="90.012964"/>
-</polygon>
-<text x="0" y="3.175" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-3.175" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-</package>
-<package name="TACTILE_SWITCH_SMD_5.2MM" urn="urn:adsk.eagle:footprint:40111/1" library_version="8" library_locally_modified="yes">
-<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - SMD, 5.2mm Square&lt;/h3&gt;
-&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Components/Buttons/SMD-Button.pdf"&gt;Dimensional Drawing&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="-1.54" y1="-2.54" x2="-2.54" y2="-1.54" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="-1.24" x2="-2.54" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="-2.54" y1="1.54" x2="-1.54" y2="2.54" width="0.2032" layer="51"/>
-<wire x1="-1.54" y1="2.54" x2="1.54" y2="2.54" width="0.2032" layer="21"/>
-<wire x1="1.54" y1="2.54" x2="2.54" y2="1.54" width="0.2032" layer="51"/>
-<wire x1="2.54" y1="1.24" x2="2.54" y2="-1.24" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="-1.54" x2="1.54" y2="-2.54" width="0.2032" layer="51"/>
-<wire x1="1.54" y1="-2.54" x2="-1.54" y2="-2.54" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="1.905" y2="0.445" width="0.127" layer="51"/>
-<wire x1="1.905" y1="0.445" x2="2.16" y2="-0.01" width="0.127" layer="51"/>
-<wire x1="1.905" y1="-0.23" x2="1.905" y2="-1.115" width="0.127" layer="51"/>
-<circle x="0" y="0" radius="1.27" width="0.2032" layer="21"/>
-<smd name="1" x="-2.794" y="1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
-<smd name="2" x="2.794" y="1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
-<smd name="3" x="-2.794" y="-1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
-<smd name="4" x="2.794" y="-1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
-<text x="0" y="2.667" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-2.667" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-</package>
-<package name="TACTILE_SWITCH_SMD_RIGHT_ANGLE" urn="urn:adsk.eagle:footprint:40112/1" library_version="8" library_locally_modified="yes">
-<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - SMD, Right-angle&lt;/h3&gt;
-&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;</description>
-<hole x="0" y="0.9" drill="0.7"/>
-<hole x="0" y="-0.9" drill="0.7"/>
-<smd name="1" x="-1.95" y="0" dx="2" dy="1.1" layer="1" rot="R90"/>
-<smd name="2" x="1.95" y="0" dx="2" dy="1.1" layer="1" rot="R90"/>
-<wire x1="-2" y1="1.2" x2="-2" y2="1.5" width="0.2032" layer="21"/>
-<wire x1="-2" y1="1.5" x2="2" y2="1.5" width="0.2032" layer="21"/>
-<wire x1="2" y1="1.5" x2="2" y2="1.2" width="0.2032" layer="21"/>
-<wire x1="-2" y1="-1.2" x2="-2" y2="-1.5" width="0.2032" layer="21"/>
-<wire x1="-2" y1="-1.5" x2="-0.7" y2="-1.5" width="0.2032" layer="21"/>
-<wire x1="-0.7" y1="-1.5" x2="0.7" y2="-1.5" width="0.2032" layer="21"/>
-<wire x1="0.7" y1="-1.5" x2="2" y2="-1.5" width="0.2032" layer="21"/>
-<wire x1="2" y1="-1.5" x2="2" y2="-1.2" width="0.2032" layer="21"/>
-<wire x1="-0.7" y1="-2.1" x2="0.7" y2="-2.1" width="0.2032" layer="21"/>
-<wire x1="0.7" y1="-2.1" x2="0.7" y2="-1.5" width="0.2032" layer="21"/>
-<wire x1="-0.7" y1="-2.1" x2="-0.7" y2="-1.5" width="0.2032" layer="21"/>
-<text x="0" y="1.651" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-2.286" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-</package>
 <package name="C0402" urn="urn:adsk.eagle:footprint:23121/1" library_version="6" library_locally_modified="yes">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
@@ -4000,29 +3620,27 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <rectangle x1="-0.15" y1="0.05" x2="0.15" y2="0.1" layer="51"/>
 <rectangle x1="-0.15" y1="-0.1" x2="0.15" y2="-0.05" layer="51"/>
 </package>
-<package name="SK3296S01L1" urn="urn:adsk.eagle:footprint:32198916/1" library_version="6" library_locally_modified="yes">
+<package name="SK3296S01L1" urn="urn:adsk.eagle:footprint:32198916/1" locally_modified="yes" library_version="41" library_locally_modified="yes">
 <description>&lt;b&gt;SK-3296S-01-L1&lt;/b&gt;&lt;br&gt;
 </description>
-<smd name="1" x="2.25" y="-0.9" dx="1.2" dy="0.9" layer="1" rot="R90"/>
-<smd name="2" x="-0.75" y="-0.9" dx="1.2" dy="0.9" layer="1" rot="R90"/>
-<smd name="3" x="-2.25" y="-0.9" dx="1.2" dy="0.9" layer="1" rot="R90"/>
-<smd name="MP1" x="-3.8" y="0.15" dx="0.9" dy="0.8" layer="1" rot="R90"/>
-<smd name="MP2" x="3.8" y="0.15" dx="0.9" dy="0.8" layer="1" rot="R90"/>
-<smd name="MP3" x="3.8" y="2.35" dx="0.9" dy="0.8" layer="1" rot="R90"/>
-<smd name="MP4" x="-3.8" y="2.35" dx="0.9" dy="0.8" layer="1" rot="R90"/>
-<hole x="-1.5" y="1.25" drill="0.9"/>
-<hole x="1.5" y="1.25" drill="0.9"/>
-<text x="0" y="0.225" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0.225" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-3.3" y1="-0.5" x2="3.3" y2="-0.5" width="0.2" layer="51"/>
-<wire x1="3.3" y1="-0.5" x2="3.3" y2="2.275" width="0.2" layer="51"/>
-<wire x1="3.3" y1="2.275" x2="-3.3" y2="2.275" width="0.2" layer="51"/>
-<wire x1="-3.3" y1="2.275" x2="-3.3" y2="-0.5" width="0.2" layer="51"/>
-<wire x1="-2.75" y1="2.275" x2="2.75" y2="2.275" width="0.1" layer="21"/>
-<wire x1="2.2" y1="-2.15" x2="2.2" y2="-2.15" width="0.2" layer="21"/>
-<wire x1="2.2" y1="-2.15" x2="2.2" y2="-2.35" width="0.2" layer="21" curve="180"/>
-<wire x1="2.2" y1="-2.35" x2="2.2" y2="-2.35" width="0.2" layer="21"/>
-<wire x1="2.2" y1="-2.35" x2="2.2" y2="-2.15" width="0.2" layer="21" curve="180"/>
+<smd name="1" x="2.25" y="-2.1" dx="1.2" dy="0.9" layer="1" rot="R90"/>
+<smd name="2" x="-0.75" y="-2.1" dx="1.2" dy="0.9" layer="1" rot="R90"/>
+<smd name="3" x="-2.25" y="-2.1" dx="1.2" dy="0.9" layer="1" rot="R90"/>
+<smd name="MP1" x="-3.65" y="-1.15" dx="0.9" dy="0.8" layer="1" rot="R90"/>
+<smd name="MP2" x="3.95" y="-1.15" dx="0.9" dy="0.8" layer="1" rot="R90"/>
+<smd name="MP3" x="3.95" y="1.15" dx="0.9" dy="0.8" layer="1" rot="R90"/>
+<smd name="MP4" x="-3.65" y="1.15" dx="0.9" dy="0.8" layer="1" rot="R90"/>
+<hole x="-1.5" y="0" drill="0.9"/>
+<hole x="1.5" y="0" drill="0.9"/>
+<text x="0.15" y="-0.725" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0.15" y="-0.725" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3.15" y1="-1.45" x2="3.45" y2="-1.45" width="0.2" layer="51"/>
+<wire x1="3.45" y1="-1.45" x2="3.45" y2="1.325" width="0.2" layer="51"/>
+<wire x1="3.45" y1="1.325" x2="-3.15" y2="1.325" width="0.2" layer="51"/>
+<wire x1="-3.15" y1="1.325" x2="-3.15" y2="-1.45" width="0.2" layer="51"/>
+<wire x1="-2.6" y1="1.325" x2="2.9" y2="1.325" width="0.1" layer="21"/>
+<wire x1="2.2" y1="-3.15" x2="2.2" y2="-3.35" width="0.2" layer="21" curve="180"/>
+<wire x1="2.2" y1="-3.35" x2="2.2" y2="-3.15" width="0.2" layer="21" curve="180"/>
 </package>
 <package name="SOD2713X115N" urn="urn:adsk.eagle:footprint:32198914/1" library_version="6" library_locally_modified="yes">
 <description>&lt;b&gt;SOD-323&lt;/b&gt;&lt;br&gt;
@@ -4394,8 +4012,27 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <vertex x="-4.316" y="-5.995" curve="-90"/>
 </polygon>
 </package>
-<package name="MUP-MIDMNT-SS" library_version="40" library_locally_modified="yes">
+<package name="MUP-MIDMNT-SS" urn="urn:adsk.eagle:footprint:40549077/1" library_version="41" library_locally_modified="yes">
 <smd name="A6" x="-0.25" y="4.8" dx="1.4" dy="0.3" layer="1" rot="R90"/>
+<smd name="A7" x="0.25" y="4.8" dx="1.4" dy="0.3" layer="1" rot="R90"/>
+<smd name="B6" x="0.75" y="4.8" dx="1.4" dy="0.3" layer="1" rot="R90"/>
+<smd name="B7" x="-0.75" y="4.8" dx="1.4" dy="0.3" layer="1" rot="R90"/>
+<smd name="A5" x="-1.25" y="4.8" dx="1.4" dy="0.3" layer="1" rot="R90"/>
+<smd name="B8" x="-1.75" y="4.8" dx="1.4" dy="0.3" layer="1" rot="R90"/>
+<smd name="A8" x="1.25" y="4.8" dx="1.4" dy="0.3" layer="1" rot="R90"/>
+<smd name="B5" x="1.75" y="4.8" dx="1.4" dy="0.3" layer="1" rot="R90"/>
+<smd name="VBUS" x="-2.4" y="4.8" dx="1.4" dy="0.6" layer="1" rot="R90"/>
+<smd name="GND" x="-3.2" y="4.8" dx="1.4" dy="0.6" layer="1" rot="R90"/>
+<smd name="VBUS2" x="2.4" y="4.8" dx="1.4" dy="0.6" layer="1" rot="R90"/>
+<smd name="GND2" x="3.2" y="4.8" dx="1.4" dy="0.6" layer="1" rot="R90"/>
+<smd name="SHLD1" x="-5.62" y="3.5" dx="1.8" dy="1" layer="1" roundness="100" rot="R90"/>
+<smd name="SHLD2" x="-5.62" y="3.5" dx="1.8" dy="1" layer="16" roundness="100" rot="R90"/>
+<smd name="SHLD3" x="5.62" y="3.5" dx="1.8" dy="1" layer="16" roundness="100" rot="R90"/>
+<smd name="SHLD4" x="5.62" y="3.5" dx="1.8" dy="1" layer="1" roundness="100" rot="R90"/>
+<smd name="SHLD5" x="-5.62" y="0" dx="2.2" dy="1" layer="1" roundness="100" rot="R90"/>
+<smd name="SHLD6" x="-5.62" y="0" dx="2.2" dy="1" layer="16" roundness="100" rot="R90"/>
+<smd name="SHLD7" x="5.62" y="0" dx="2.2" dy="1" layer="16" roundness="100" rot="R90"/>
+<smd name="SHLD8" x="5.62" y="0" dx="2.2" dy="1" layer="1" roundness="100" rot="R90"/>
 <wire x1="-4.62" y1="-2.1" x2="4.62" y2="-2.1" width="0.127" layer="21"/>
 <wire x1="-4.62" y1="-2.1" x2="-4.62" y2="0.37" width="0.001" layer="20"/>
 <wire x1="-4.92" y1="0.67" x2="-4.62" y2="0.37" width="0.001" layer="20" curve="-90"/>
@@ -4414,17 +4051,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="4.92" y1="0.67" x2="5.22" y2="0.97" width="0.001" layer="20" curve="90"/>
 <wire x1="4.92" y1="0.67" x2="4.62" y2="0.37" width="0.001" layer="19" curve="90"/>
 <wire x1="4.62" y1="-2.1" x2="4.62" y2="0.37" width="0.001" layer="20"/>
-<smd name="A7" x="0.25" y="4.8" dx="1.4" dy="0.3" layer="1" rot="R90"/>
-<smd name="B6" x="0.75" y="4.8" dx="1.4" dy="0.3" layer="1" rot="R90"/>
-<smd name="B7" x="-0.75" y="4.8" dx="1.4" dy="0.3" layer="1" rot="R90"/>
-<smd name="A5" x="-1.25" y="4.8" dx="1.4" dy="0.3" layer="1" rot="R90"/>
-<smd name="B8" x="-1.75" y="4.8" dx="1.4" dy="0.3" layer="1" rot="R90"/>
-<smd name="A8" x="1.25" y="4.8" dx="1.4" dy="0.3" layer="1" rot="R90"/>
-<smd name="B5" x="1.75" y="4.8" dx="1.4" dy="0.3" layer="1" rot="R90"/>
-<smd name="VBUS" x="-2.4" y="4.8" dx="1.4" dy="0.6" layer="1" rot="R90"/>
-<smd name="GND" x="-3.2" y="4.8" dx="1.4" dy="0.6" layer="1" rot="R90"/>
-<smd name="VBUS2" x="2.4" y="4.8" dx="1.4" dy="0.6" layer="1" rot="R90"/>
-<smd name="GND2" x="3.2" y="4.8" dx="1.4" dy="0.6" layer="1" rot="R90"/>
 <wire x1="-5.32" y1="-0.6" x2="-5.92" y2="-0.6" width="0.001" layer="20" curve="-180"/>
 <wire x1="-5.92" y1="-0.6" x2="-5.92" y2="0.6" width="0.001" layer="20"/>
 <wire x1="-5.32" y1="-0.6" x2="-5.32" y2="0.6" width="0.001" layer="20"/>
@@ -4441,14 +4067,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="5.32" y1="-0.6" x2="5.32" y2="0.6" width="0.001" layer="20"/>
 <wire x1="5.92" y1="-0.6" x2="5.92" y2="0.6" width="0.001" layer="20"/>
 <wire x1="5.32" y1="0.6" x2="5.92" y2="0.6" width="0.001" layer="20" curve="-180"/>
-<smd name="SHLD1" x="-5.62" y="3.5" dx="1.8" dy="1" layer="1" roundness="100" rot="R90"/>
-<smd name="SHLD2" x="-5.62" y="3.5" dx="1.8" dy="1" layer="16" roundness="100" rot="R90"/>
-<smd name="SHLD3" x="5.62" y="3.5" dx="1.8" dy="1" layer="16" roundness="100" rot="R90"/>
-<smd name="SHLD4" x="5.62" y="3.5" dx="1.8" dy="1" layer="1" roundness="100" rot="R90"/>
-<smd name="SHLD5" x="-5.62" y="0" dx="2.2" dy="1" layer="1" roundness="100" rot="R90"/>
-<smd name="SHLD6" x="-5.62" y="0" dx="2.2" dy="1" layer="16" roundness="100" rot="R90"/>
-<smd name="SHLD7" x="5.62" y="0" dx="2.2" dy="1" layer="16" roundness="100" rot="R90"/>
-<smd name="SHLD8" x="5.62" y="0" dx="2.2" dy="1" layer="1" roundness="100" rot="R90"/>
 <wire x1="-5.62" y1="3.1" x2="-5.62" y2="3.9" width="1" layer="30"/>
 <wire x1="-5.62" y1="3.1" x2="-5.62" y2="3.9" width="1" layer="29"/>
 <wire x1="5.62" y1="3.1" x2="5.62" y2="3.9" width="1" layer="30"/>
@@ -4474,94 +4092,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <package3d name="CHERRY_CORNER_OFFED" urn="urn:adsk.eagle:package:32198956/1" type="model" library_version="8" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="CHERRY_CORNER_OFFED"/>
-</packageinstances>
-</package3d>
-<package3d name="TACTILE_SWITCH_SMD_4.6X2.8MM" urn="urn:adsk.eagle:package:32213842/2" type="model" library_version="8" library_locally_modified="yes">
-<description>Momentary Switch (Pushbutton) - SPST - SMD, 4.6 x 2.8mm
-Normally-open (NO) SPST momentary switches (buttons, pushbuttons).
-Datasheet</description>
-<packageinstances>
-<packageinstance name="TACTILE_SWITCH_SMD_4.6X2.8MM"/>
-</packageinstances>
-</package3d>
-<package3d name="TACTILE_SWITCH_PTH_6.0MM" urn="urn:adsk.eagle:package:40163/1" type="box" library_version="8" library_locally_modified="yes">
-<description>Momentary Switch (Pushbutton) - SPST - PTH, 6.0mm Square
-Normally-open (NO) SPST momentary switches (buttons, pushbuttons).
-Datasheet (B3F-1000)</description>
-<packageinstances>
-<packageinstance name="TACTILE_SWITCH_PTH_6.0MM"/>
-</packageinstances>
-</package3d>
-<package3d name="TACTILE_SWITCH_SMD_4.5MM" urn="urn:adsk.eagle:package:40162/1" type="box" library_version="8" library_locally_modified="yes">
-<description>Momentary Switch (Pushbutton) - SPST - SMD, 4.5mm Square
-Normally-open (NO) SPST momentary switches (buttons, pushbuttons).
-Dimensional Drawing</description>
-<packageinstances>
-<packageinstance name="TACTILE_SWITCH_SMD_4.5MM"/>
-</packageinstances>
-</package3d>
-<package3d name="TACTILE_SWITCH_PTH_12MM" urn="urn:adsk.eagle:package:40164/1" type="box" library_version="8" library_locally_modified="yes">
-<description>Momentary Switch (Pushbutton) - SPST - PTH, 12mm Square
-Normally-open (NO) SPST momentary switches (buttons, pushbuttons).
-Datasheet (B3F-5050)</description>
-<packageinstances>
-<packageinstance name="TACTILE_SWITCH_PTH_12MM"/>
-</packageinstances>
-</package3d>
-<package3d name="TACTILE_SWITCH_SMD_6.0X3.5MM" urn="urn:adsk.eagle:package:40165/1" type="box" library_version="8" library_locally_modified="yes">
-<description>Momentary Switch (Pushbutton) - SPST - SMD, 6.0 x 3.5 mm
-Normally-open (NO) SPST momentary switches (buttons, pushbuttons).
-Datasheet</description>
-<packageinstances>
-<packageinstance name="TACTILE_SWITCH_SMD_6.0X3.5MM"/>
-</packageinstances>
-</package3d>
-<package3d name="TACTILE_SWITCH_SMD_6.2MM_TALL" urn="urn:adsk.eagle:package:40172/1" type="box" library_version="8" library_locally_modified="yes">
-<description>Momentary Switch (Pushbutton) - SPST - SMD, 6.2mm Square
-Normally-open (NO) SPST momentary switches (buttons, pushbuttons).
-Datasheet (ADTSM63NVTR)</description>
-<packageinstances>
-<packageinstance name="TACTILE_SWITCH_SMD_6.2MM_TALL"/>
-</packageinstances>
-</package3d>
-<package3d name="TACTILE_SWITCH_PTH_RIGHT_ANGLE_KIT" urn="urn:adsk.eagle:package:40168/1" type="box" library_version="8" library_locally_modified="yes">
-<description>Momentary Switch (Pushbutton) - SPST - PTH, Right-angle
-Normally-open (NO) SPST momentary switches (buttons, pushbuttons).
-Dimensional Drawing</description>
-<packageinstances>
-<packageinstance name="TACTILE_SWITCH_PTH_RIGHT_ANGLE_KIT"/>
-</packageinstances>
-</package3d>
-<package3d name="TACTILE_SWITCH_SMD_12MM" urn="urn:adsk.eagle:package:40166/1" type="box" library_version="8" library_locally_modified="yes">
-<description>Momentary Switch (Pushbutton) - SPST - SMD, 12mm Square
-Normally-open (NO) SPST momentary switches (buttons, pushbuttons).
-Datasheet</description>
-<packageinstances>
-<packageinstance name="TACTILE_SWITCH_SMD_12MM"/>
-</packageinstances>
-</package3d>
-<package3d name="TACTILE_SWITCH_PTH_6.0MM_KIT" urn="urn:adsk.eagle:package:40170/1" type="box" library_version="8" library_locally_modified="yes">
-<description>Momentary Switch (Pushbutton) - SPST - PTH, 6.0mm Square
-Normally-open (NO) SPST momentary switches (buttons, pushbuttons).
-Warning: This is the KIT version of this package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.
-Datasheet (B3F-1000)</description>
-<packageinstances>
-<packageinstance name="TACTILE_SWITCH_PTH_6.0MM_KIT"/>
-</packageinstances>
-</package3d>
-<package3d name="TACTILE_SWITCH_SMD_5.2MM" urn="urn:adsk.eagle:package:40167/1" type="box" library_version="8" library_locally_modified="yes">
-<description>Momentary Switch (Pushbutton) - SPST - SMD, 5.2mm Square
-Normally-open (NO) SPST momentary switches (buttons, pushbuttons).
-Dimensional Drawing</description>
-<packageinstances>
-<packageinstance name="TACTILE_SWITCH_SMD_5.2MM"/>
-</packageinstances>
-</package3d>
-<package3d name="TACTILE_SWITCH_SMD_RIGHT_ANGLE" urn="urn:adsk.eagle:package:40169/1" type="box" library_version="8" library_locally_modified="yes">
-<description>Momentary Switch (Pushbutton) - SPST - SMD, Right-angle
-Normally-open (NO) SPST momentary switches (buttons, pushbuttons).</description>
-<packageinstances>
-<packageinstance name="TACTILE_SWITCH_SMD_RIGHT_ANGLE"/>
 </packageinstances>
 </package3d>
 <package3d name="CAPC1005X60" urn="urn:adsk.eagle:package:23626/2" type="model" library_version="6" library_locally_modified="yes">
@@ -5695,7 +5225,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <packageinstance name="R01005"/>
 </packageinstances>
 </package3d>
-<package3d name="SK3296S01L1" urn="urn:adsk.eagle:package:32198973/2" type="model" library_version="6" library_locally_modified="yes">
+<package3d name="SK3296S01L1" urn="urn:adsk.eagle:package:32198973/2" type="model" library_version="41" library_locally_modified="yes">
 <description>&lt;b&gt;SK-3296S-01-L1&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="SK3296S01L1"/>
@@ -5766,6 +5296,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <packageinstance name="SPARKFUN-CONNECTORS_USB-C-16P"/>
 </packageinstances>
 </package3d>
+<package3d name="MUP-MIDMNT-SS" urn="urn:adsk.eagle:package:40549079/1" type="box" library_version="41" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="MUP-MIDMNT-SS"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="DIODE-1" urn="urn:adsk.eagle:symbol:32198818/1" library_version="8" library_locally_modified="yes">
@@ -5789,18 +5324,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
 <text x="-5.08" y="7.62" size="1.778" layer="97">&gt;NAME</text>
-</symbol>
-<symbol name="SWITCH-MOMENTARY-2" urn="urn:adsk.eagle:symbol:32201142/1" library_version="8" library_locally_modified="yes">
-<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST&lt;/h3&gt;
-&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;</description>
-<wire x1="1.905" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0" x2="1.905" y2="1.27" width="0.254" layer="94"/>
-<circle x="-2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
-<circle x="2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
-<text x="0" y="1.524" size="1.778" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.508" size="1.778" layer="96" font="vector" align="top-center">&gt;VALUE</text>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="2"/>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
 <symbol name="C-EU" urn="urn:adsk.eagle:symbol:32212831/1" library_version="6" library_locally_modified="yes">
 <wire x1="0" y1="0" x2="0" y2="-0.508" width="0.1524" layer="94"/>
@@ -6023,219 +5546,6 @@ Exposes the minimal pins needed to implement a USB 2.x legacy device.</descripti
 </package3dinstances>
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MOMENTARY-SWITCH-SPST" urn="urn:adsk.eagle:component:32201143/2" prefix="S" library_version="8" library_locally_modified="yes">
-<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST&lt;/h3&gt;
-&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
-&lt;h4&gt;Variants&lt;/h4&gt;
-&lt;h5&gt;PTH-12MM - 12mm square, through-hole&lt;/h5&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/9190"&gt;Momentary Pushbutton Switch - 12mm Square&lt;/a&gt; (COM-09190)&lt;/li&gt;&lt;/ul&gt;
-&lt;h5&gt;PTH-6.0MM, PTH-6.0MM-KIT - 6.0mm square, through-hole&lt;/h5&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/97"&gt;Mini Pushbutton Switch&lt;/a&gt; (COM-00097)&lt;/li&gt;
-&lt;li&gt;KIT package intended for soldering kit's - only one side of pads' copper is exposed.&lt;/li&gt;&lt;/ul&gt;
-&lt;h5&gt;PTH-RIGHT-ANGLE-KIT - Right-angle, through-hole&lt;/h5&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/10791"&gt;Right Angle Tactile Button&lt;/a&gt; - Used on &lt;a href="https://www.sparkfun.com/products/11734"&gt;
-SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
-&lt;h5&gt;SMD-12MM - 12mm square, surface-mount&lt;/h5&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12993"&gt;Tactile Button - SMD (12mm)&lt;/a&gt; (COM-12993)&lt;/li&gt;
-&lt;li&gt;Used on &lt;a href="https://www.sparkfun.com/products/11888"&gt;SparkFun PicoBoard&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
-&lt;h5&gt;SMD-4.5MM - 4.5mm Square Trackball Switch&lt;/h5&gt;
-&lt;ul&gt;&lt;li&gt;Used on &lt;a href="https://www.sparkfun.com/products/13169"&gt;SparkFun Blackberry Trackballer Breakout&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
-&lt;h5&gt;SMD-4.6MMX2.8MM -  4.60mm x 2.80mm, surface mount&lt;/h5&gt;
-&lt;ul&gt;&lt;li&gt;Used on &lt;a href="https://www.sparkfun.com/products/13664"&gt;SparkFun SAMD21 Mini Breakout&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
-&lt;h5&gt;SMD-5.2MM, SMD-5.2-REDUNDANT - 5.2mm square, surface-mount&lt;/h5&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/8720"&gt;Mini Pushbutton Switch - SMD&lt;/a&gt; (COM-08720)&lt;/li&gt;
-&lt;li&gt;Used on &lt;a href="https://www.sparkfun.com/products/11114"&gt;Arduino Pro Mini&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;REDUNDANT package connects both switch circuits together&lt;/li&gt;&lt;/ul&gt;
-&lt;h5&gt;SMD-6.0X3.5MM - 6.0 x 3.5mm, surface mount&lt;/h5&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/8229"&gt;Momentary Reset Switch SMD&lt;/a&gt; (COM-08229)&lt;/li&gt;&lt;/ul&gt;
-&lt;h5&gt;SMD-6.2MM-TALL - 6.2mm square, surface mount&lt;/h5&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12992"&gt;Tactile Button - SMD (6mm)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Used on &lt;a href="https://www.sparkfun.com/products/12651"&gt;SparkFun Digital Sandbox&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
-&lt;h5&gt;SMD-RIGHT-ANGLE - Right-angle, surface mount&lt;/h5&gt;
-&lt;ul&gt;&lt;li&gt;Used on &lt;a href="https://www.sparkfun.com/products/13036"&gt;SparkFun Block for Intel® Edison - Arduino&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-<gates>
-<gate name="G$1" symbol="SWITCH-MOMENTARY-2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-PTH-6.0MM" package="TACTILE_SWITCH_PTH_6.0MM">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:40163/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value=" SWCH-08441"/>
-<attribute name="SF_SKU" value="COM-00097"/>
-</technology>
-</technologies>
-</device>
-<device name="-SMD-4.5MM" package="TACTILE_SWITCH_SMD_4.5MM">
-<connects>
-<connect gate="G$1" pin="1" pad="2 3"/>
-<connect gate="G$1" pin="2" pad="1 4"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:40162/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="SWCH-09213"/>
-</technology>
-</technologies>
-</device>
-<device name="-PTH-12MM" package="TACTILE_SWITCH_PTH_12MM">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:40164/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="SWCH-09185"/>
-<attribute name="SF_SKU" value="COM-09190"/>
-</technology>
-</technologies>
-</device>
-<device name="-SMD-6.0X3.5MM" package="TACTILE_SWITCH_SMD_6.0X3.5MM">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:40165/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="SWCH-00815"/>
-<attribute name="SF_SKU" value="COM-08229"/>
-</technology>
-</technologies>
-</device>
-<device name="-SMD-6.2MM-TALL" package="TACTILE_SWITCH_SMD_6.2MM_TALL">
-<connects>
-<connect gate="G$1" pin="1" pad="A2"/>
-<connect gate="G$1" pin="2" pad="B2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:40172/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="SWCH-11966"/>
-<attribute name="SF_SKU" value="COM-12992"/>
-</technology>
-</technologies>
-</device>
-<device name="-PTH-RIGHT-ANGLE-KIT" package="TACTILE_SWITCH_PTH_RIGHT_ANGLE_KIT">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:40168/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CONN-10672"/>
-<attribute name="SF_SKU" value="COM-10791"/>
-</technology>
-</technologies>
-</device>
-<device name="-SMD-12MM" package="TACTILE_SWITCH_SMD_12MM">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:40166/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="SWCH-11967"/>
-<attribute name="SF_SKU" value="COM-12993"/>
-</technology>
-</technologies>
-</device>
-<device name="-PTH-6.0MM-KIT" package="TACTILE_SWITCH_PTH_6.0MM_KIT">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:40170/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="SWCH-08441"/>
-<attribute name="SF_SKU" value="COM-00097 "/>
-</technology>
-</technologies>
-</device>
-<device name="-SMD-5.2MM" package="TACTILE_SWITCH_SMD_5.2MM">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:40167/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="SWCH-08247"/>
-<attribute name="SF_SKU" value="COM-08720"/>
-</technology>
-</technologies>
-</device>
-<device name="-SMD-5.2-REDUNDANT" package="TACTILE_SWITCH_SMD_5.2MM">
-<connects>
-<connect gate="G$1" pin="1" pad="1 2"/>
-<connect gate="G$1" pin="2" pad="3 4"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:40167/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="SWCH-08247"/>
-<attribute name="SF_SKU" value="COM-08720"/>
-</technology>
-</technologies>
-</device>
-<device name="-SMD-RIGHT-ANGLE" package="TACTILE_SWITCH_SMD_RIGHT_ANGLE">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:40169/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="COMP-12265" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-SMD-4.6X2.8MM" package="TACTILE_SWITCH_SMD_4.6X2.8MM">
-<connects>
-<connect gate="G$1" pin="1" pad="1 2"/>
-<connect gate="G$1" pin="2" pad="3 4"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:32213842/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="SWCH-13065"/>
-</technology>
 </technologies>
 </device>
 </devices>
@@ -8731,7 +8041,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="SK-3296S-01-L1" urn="urn:adsk.eagle:component:32199026/2" prefix="J" library_version="6" library_locally_modified="yes">
+<deviceset name="SK-3296S-01-L1" urn="urn:adsk.eagle:component:32199026/2" prefix="J" library_version="41" library_locally_modified="yes">
 <description>&lt;b&gt;Toggle Switches SMD RoHS&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/XKB-SK-3296S-01-L1_C319020.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -8973,7 +8283,7 @@ Source: &lt;a href="http://www.vishay.com/docs/85682/sd103aws.pdf"&gt; Datasheet
 </device>
 </devices>
 </deviceset>
-<deviceset name="SPARKFUN-CONNECTORS_USB_C" urn="urn:adsk.eagle:component:32199029/2" locally_modified="yes" prefix="J" uservalue="yes" library_version="40" library_locally_modified="yes">
+<deviceset name="SPARKFUN-CONNECTORS_USB_C" urn="urn:adsk.eagle:component:32199029/3" prefix="J" uservalue="yes" library_version="41" library_locally_modified="yes">
 <description>&lt;h3&gt;USB Type C 16Pin Connector&lt;/h3&gt;
 
 Super Speed pins not available on the 16-pin purely SMD connector so this part is best for USB 2.0 implementations. D1 and D2 are tied together enabling D+/- no matter which way the cable is plugged into the connector. The two channel configuration pins (CC1/2) are exposed. These are normally connected to ground via 5.1k resistors but can be reconfigured for high current/high power applications.</description>
@@ -9010,6 +8320,9 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <connect gate="J1" pin="SHLD" pad="SHLD1 SHLD2 SHLD3 SHLD4 SHLD5 SHLD6 SHLD7 SHLD8"/>
 <connect gate="J1" pin="VBUS" pad="VBUS VBUS2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40549079/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -21732,6 +21045,164 @@ This setting can be found in the board layout editor under the Edit menu.  Selec
 </deviceset>
 </devicesets>
 </library>
+<library name="PTS847MM160LSMTR2_LFS">
+<packages>
+<package name="SW_PTS847MM160LSMTR2_LFS">
+<wire x1="2.35" y1="0.575" x2="2.6" y2="0.325" width="0" layer="46" curve="-90"/>
+<wire x1="2.6" y1="0.325" x2="2.6" y2="-0.325" width="0" layer="46"/>
+<wire x1="2.6" y1="-0.325" x2="2.35" y2="-0.575" width="0" layer="46" curve="-90"/>
+<wire x1="2.35" y1="-0.575" x2="2.1" y2="-0.325" width="0" layer="46" curve="-90"/>
+<wire x1="2.1" y1="-0.325" x2="2.1" y2="0.325" width="0" layer="46"/>
+<wire x1="2.1" y1="0.325" x2="2.35" y2="0.575" width="0" layer="46" curve="-90"/>
+<polygon width="0.01" layer="1">
+<vertex x="2.35" y="0.775" curve="-90"/>
+<vertex x="2.8" y="0.325"/>
+<vertex x="2.8" y="-0.325" curve="-90"/>
+<vertex x="2.35" y="-0.775" curve="-90"/>
+<vertex x="1.9" y="-0.325"/>
+<vertex x="1.9" y="0.325" curve="-90"/>
+</polygon>
+<wire x1="-1.2" y1="-0.4" x2="1.2" y2="-0.4" width="0" layer="46"/>
+<wire x1="1.9" y1="-1.1" x2="1.9" y2="-1.75" width="0" layer="46"/>
+<wire x1="1.9" y1="-1.75" x2="-1.9" y2="-1.75" width="0" layer="46"/>
+<wire x1="-1.9" y1="-1.75" x2="-1.9" y2="-1.1" width="0" layer="46"/>
+<polygon width="0.01" layer="30">
+<vertex x="1.8" y="-0.325"/>
+<vertex x="1.8" y="0.325" curve="-90"/>
+<vertex x="2.35" y="0.875" curve="-90"/>
+<vertex x="2.9" y="0.325"/>
+<vertex x="2.9" y="-0.325" curve="-90"/>
+<vertex x="2.35" y="-0.875" curve="-90"/>
+</polygon>
+<wire x1="-2.4" y1="0.4" x2="2.4" y2="0.4" width="0.127" layer="51"/>
+<wire x1="2.4" y1="0.4" x2="2.4" y2="-1.8" width="0.127" layer="51"/>
+<wire x1="2.4" y1="-1.8" x2="1.1" y2="-1.8" width="0.127" layer="51"/>
+<wire x1="1.1" y1="-1.8" x2="-1.1" y2="-1.8" width="0.127" layer="51"/>
+<wire x1="-1.1" y1="-1.8" x2="-2.4" y2="-1.8" width="0.127" layer="51"/>
+<wire x1="-2.4" y1="-1.8" x2="-2.4" y2="0.4" width="0.127" layer="51"/>
+<wire x1="-1.1" y1="-2.2" x2="1.1" y2="-2.2" width="0.127" layer="51"/>
+<wire x1="-1.1" y1="-2.2" x2="-1.1" y2="-1.8" width="0.127" layer="51"/>
+<wire x1="1.1" y1="-2.2" x2="1.1" y2="-1.8" width="0.127" layer="51"/>
+<wire x1="-2.4" y1="-1.75" x2="-2.4" y2="-1.095" width="0.127" layer="21"/>
+<wire x1="2.4" y1="-1.095" x2="2.4" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="-3.05" y1="1.5" x2="-3.05" y2="-2.45" width="0.05" layer="39"/>
+<wire x1="-3.05" y1="-2.45" x2="3.05" y2="-2.45" width="0.05" layer="39"/>
+<wire x1="3.05" y1="-2.45" x2="3.05" y2="1.5" width="0.05" layer="39"/>
+<wire x1="3.05" y1="1.5" x2="-3.05" y2="1.5" width="0.05" layer="39"/>
+<circle x="-1.245" y="1.8" radius="0.1" width="0.2" layer="21"/>
+<circle x="-1.245" y="1.8" radius="0.1" width="0.2" layer="51"/>
+<text x="-3" y="3.5" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3" y="2" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.01" layer="29">
+<vertex x="1.8" y="-0.325"/>
+<vertex x="1.8" y="0.325" curve="-90"/>
+<vertex x="2.35" y="0.875" curve="-90"/>
+<vertex x="2.9" y="0.325"/>
+<vertex x="2.9" y="-0.325" curve="-90"/>
+<vertex x="2.35" y="-0.875" curve="-90"/>
+</polygon>
+<polygon width="0.01" layer="1">
+<vertex x="-2.35" y="0.775" curve="-90"/>
+<vertex x="-1.9" y="0.325"/>
+<vertex x="-1.9" y="-0.325" curve="-90"/>
+<vertex x="-2.35" y="-0.775" curve="-90"/>
+<vertex x="-2.8" y="-0.325"/>
+<vertex x="-2.8" y="0.325" curve="-90"/>
+</polygon>
+<polygon width="0.01" layer="30">
+<vertex x="-2.9" y="-0.325"/>
+<vertex x="-2.9" y="0.325" curve="-90"/>
+<vertex x="-2.35" y="0.875" curve="-90"/>
+<vertex x="-1.8" y="0.325"/>
+<vertex x="-1.8" y="-0.325" curve="-90"/>
+<vertex x="-2.35" y="-0.875" curve="-90"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="-2.9" y="-0.325"/>
+<vertex x="-2.9" y="0.325" curve="-90"/>
+<vertex x="-2.35" y="0.875" curve="-90"/>
+<vertex x="-1.8" y="0.325"/>
+<vertex x="-1.8" y="-0.325" curve="-90"/>
+<vertex x="-2.35" y="-0.875" curve="-90"/>
+</polygon>
+<wire x1="-2.35" y1="-0.575" x2="-2.6" y2="-0.325" width="0" layer="46" curve="-90"/>
+<wire x1="-2.6" y1="-0.325" x2="-2.6" y2="0.325" width="0" layer="46"/>
+<wire x1="-2.6" y1="0.325" x2="-2.35" y2="0.575" width="0" layer="46" curve="-90"/>
+<wire x1="-2.35" y1="0.575" x2="-2.1" y2="0.325" width="0" layer="46" curve="-90"/>
+<wire x1="-2.1" y1="0.325" x2="-2.1" y2="-0.325" width="0" layer="46"/>
+<wire x1="-2.1" y1="-0.325" x2="-2.35" y2="-0.575" width="0" layer="46" curve="-90"/>
+<wire x1="1.2" y1="-0.4" x2="1.9" y2="-1.1" width="0" layer="46" curve="-163.7"/>
+<wire x1="-1.2" y1="-0.4" x2="-1.9" y2="-1.1" width="0" layer="46" curve="163.7"/>
+<polygon width="0.01" layer="16">
+<vertex x="-2.35" y="0.775" curve="90"/>
+<vertex x="-2.8" y="0.325"/>
+<vertex x="-2.8" y="-0.325" curve="90"/>
+<vertex x="-2.35" y="-0.775" curve="90"/>
+<vertex x="-1.9" y="-0.325"/>
+<vertex x="-1.9" y="0.325" curve="90"/>
+</polygon>
+<polygon width="0.01" layer="16">
+<vertex x="2.35" y="0.775" curve="90"/>
+<vertex x="1.9" y="0.325"/>
+<vertex x="1.9" y="-0.325" curve="90"/>
+<vertex x="2.35" y="-0.775" curve="90"/>
+<vertex x="2.8" y="-0.325"/>
+<vertex x="2.8" y="0.325" curve="90"/>
+</polygon>
+<smd name="1" x="-1.15" y="0.55" dx="0.8" dy="1.4" layer="1"/>
+<smd name="2" x="0" y="0.55" dx="0.8" dy="1.4" layer="1"/>
+<smd name="3" x="1.15" y="0.55" dx="0.8" dy="1.4" layer="1"/>
+<pad name="S1" x="-2.35" y="0" drill="0.5" diameter="0.9"/>
+<pad name="S2" x="2.35" y="0" drill="0.5" diameter="0.9"/>
+</package>
+</packages>
+<symbols>
+<symbol name="PTS847MM160LSMTR2_LFS">
+<text x="-5.08" y="5.969" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="4.572" width="0.1524" layer="94"/>
+<circle x="2.54" y="2.54" radius="0.3302" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="2.921" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<pin name="COM" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="NO" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="SHIELD" x="7.62" y="-2.54" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PTS847MM160LSMTR2_LFS" prefix="S">
+<description>Tactile Switch SPST-NO Side Actuated Edge Mount, Right Angle  &lt;a href="https://pricing.snapeda.com/parts/PTS847MM160LSMTR2%20LFS/C%26K/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="PTS847MM160LSMTR2_LFS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SW_PTS847MM160LSMTR2_LFS">
+<connects>
+<connect gate="G$1" pin="COM" pad="1 3"/>
+<connect gate="G$1" pin="NO" pad="2"/>
+<connect gate="G$1" pin="SHIELD" pad="S1 S2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/PTS847MM160LSMTR2%20LFS/C%2526K/view-part/?ref=eda"/>
+<attribute name="DESCRIPTION" value=" Tactile Switch SPST-NO Side Actuated Edge Mount, Right Angle "/>
+<attribute name="MF" value="C&amp;K"/>
+<attribute name="MP" value="PTS847MM160LSMTR2 LFS"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/PTS847MM160LSMTR2%20LFS/C%2526K/view-part/?ref=snap"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -21875,7 +21346,6 @@ This setting can be found in the board layout editor under the Edit menu.  Selec
 <part name="GND12" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND13" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="IC2" library="TP4054-42-SOT25-R" deviceset="TP4054-42-SOT25-R" device=""/>
-<part name="S5" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-4.6X2.8MM" package3d_urn="urn:adsk.eagle:package:32213842/2"/>
 <part name="Q5" library="Transistor" library_urn="urn:adsk.eagle:library:16378713" deviceset="PMOSFET" device="SOT23" package3d_urn="urn:adsk.eagle:package:28738/2" technology="_" value="PMOSFET">
 <attribute name="MPN" value="SL2301S"/>
 </part>
@@ -21936,13 +21406,14 @@ This setting can be found in the board layout editor under the Edit menu.  Selec
 <part name="D50" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" deviceset="1N4148WS" device="" package3d_urn="urn:adsk.eagle:package:32198954/3"/>
 <part name="D51" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" deviceset="1N4148WS" device="" package3d_urn="urn:adsk.eagle:package:32198954/3"/>
 <part name="D52" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" deviceset="1N4148WS" device="" package3d_urn="urn:adsk.eagle:package:32198954/3"/>
-<part name="J3" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" deviceset="SPARKFUN-CONNECTORS_USB_C" device=""/>
+<part name="J3" library="Volume_V1" library_urn="urn:adsk.eagle:library:32198814" deviceset="SPARKFUN-CONNECTORS_USB_C" device="" package3d_urn="urn:adsk.eagle:package:40549079/1"/>
 <part name="GND21" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND25" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND26" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_USB" device=""/>
 <part name="J2" library="tag-connect" deviceset="TC2030_SWD" device="-MCP-NL"/>
 <part name="GND3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="S1" library="PTS847MM160LSMTR2_LFS" deviceset="PTS847MM160LSMTR2_LFS" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -22324,10 +21795,6 @@ This setting can be found in the board layout editor under the Edit menu.  Selec
 <attribute name="NAME" x="-400.05" y="12.7" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-400.05" y="10.16" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="S5" gate="G$1" x="-469.9" y="12.7" smashed="yes">
-<attribute name="NAME" x="-469.9" y="14.224" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="-469.9" y="12.192" size="1.778" layer="96" font="vector" align="top-center"/>
-</instance>
 <instance part="Q5" gate="G$1" x="-421.64" y="-83.82" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-415.29" y="-85.09" size="1.778" layer="95" rot="MR180"/>
 <attribute name="MPN" x="-414.02" y="-81.28" size="1.778" layer="96" rot="MR180" display="name"/>
@@ -22519,6 +21986,10 @@ This setting can be found in the board layout editor under the Edit menu.  Selec
 <instance part="J2" gate="G$1" x="-294.64" y="-48.26" smashed="yes"/>
 <instance part="GND3" gate="1" x="-312.42" y="-58.42" smashed="yes">
 <attribute name="VALUE" x="-312.42" y="-58.674" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="S1" gate="G$1" x="-472.44" y="10.16" smashed="yes">
+<attribute name="NAME" x="-477.52" y="16.129" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-477.52" y="2.54" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -22968,8 +22439,9 @@ This setting can be found in the board layout editor under the Edit menu.  Selec
 <wire x1="-454.66" y1="20.32" x2="-457.2" y2="20.32" width="0.1524" layer="91"/>
 <label x="-457.2" y="15.24" size="1.778" layer="95"/>
 <wire x1="-457.2" y1="20.32" x2="-457.2" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="S5" gate="G$1" pin="2"/>
+<pinref part="S1" gate="G$1" pin="NO"/>
 <wire x1="-464.82" y1="12.7" x2="-457.2" y2="12.7" width="0.1524" layer="91"/>
+<junction x="-464.82" y="12.7"/>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="P0.21"/>
@@ -23095,10 +22567,14 @@ This setting can be found in the board layout editor under the Edit menu.  Selec
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
+<pinref part="S1" gate="G$1" pin="COM"/>
+<wire x1="-480.06" y1="12.7" x2="-482.6" y2="12.7" width="0.1524" layer="91"/>
+<junction x="-480.06" y="12.7"/>
+<pinref part="S1" gate="G$1" pin="SHIELD"/>
 <wire x1="-482.6" y1="12.7" x2="-487.68" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="-482.6" y1="20.32" x2="-482.6" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="S5" gate="G$1" pin="1"/>
-<wire x1="-474.98" y1="12.7" x2="-482.6" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="-464.82" y1="7.62" x2="-464.82" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="-464.82" y1="2.54" x2="-482.6" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="-482.6" y1="2.54" x2="-482.6" y2="12.7" width="0.1524" layer="91"/>
 <junction x="-482.6" y="12.7"/>
 </segment>
 <segment>
