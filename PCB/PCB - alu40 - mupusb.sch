@@ -4012,7 +4012,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <vertex x="-4.316" y="-5.995" curve="-90"/>
 </polygon>
 </package>
-<package name="MUP-MIDMNT-SS" urn="urn:adsk.eagle:footprint:40549077/1" library_version="41" library_locally_modified="yes">
+<package name="MUP-MIDMNT-SS" urn="urn:adsk.eagle:footprint:40549077/1" locally_modified="yes" library_version="41" library_locally_modified="yes">
 <smd name="A6" x="-0.25" y="4.8" dx="1.4" dy="0.3" layer="1" rot="R90"/>
 <smd name="A7" x="0.25" y="4.8" dx="1.4" dy="0.3" layer="1" rot="R90"/>
 <smd name="B6" x="0.75" y="4.8" dx="1.4" dy="0.3" layer="1" rot="R90"/>
@@ -4033,8 +4033,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <smd name="SHLD6" x="-5.62" y="0" dx="2.2" dy="1" layer="16" roundness="100" rot="R90"/>
 <smd name="SHLD7" x="5.62" y="0" dx="2.2" dy="1" layer="16" roundness="100" rot="R90"/>
 <smd name="SHLD8" x="5.62" y="0" dx="2.2" dy="1" layer="1" roundness="100" rot="R90"/>
-<wire x1="-4.62" y1="-2.1" x2="4.62" y2="-2.1" width="0.127" layer="21"/>
-<wire x1="-4.62" y1="-2.1" x2="-4.62" y2="0.37" width="0.001" layer="20"/>
+<wire x1="-4.62" y1="-1.35" x2="4.62" y2="-1.35" width="0.127" layer="21"/>
+<wire x1="-4.62" y1="-1.35" x2="-4.62" y2="0.37" width="0.001" layer="20"/>
 <wire x1="-4.92" y1="0.67" x2="-4.62" y2="0.37" width="0.001" layer="20" curve="-90"/>
 <wire x1="-4.92" y1="0.67" x2="-5.22" y2="0.97" width="0.001" layer="20" curve="-90"/>
 <wire x1="-5.22" y1="0.97" x2="-5.22" y2="2.25" width="0.001" layer="20"/>
@@ -4049,8 +4049,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="5.22" y1="2.25" x2="4.92" y2="2.55" width="0.001" layer="20" curve="90"/>
 <wire x1="5.22" y1="0.97" x2="5.22" y2="2.25" width="0.001" layer="20"/>
 <wire x1="4.92" y1="0.67" x2="5.22" y2="0.97" width="0.001" layer="20" curve="90"/>
-<wire x1="4.92" y1="0.67" x2="4.62" y2="0.37" width="0.001" layer="19" curve="90"/>
-<wire x1="4.62" y1="-2.1" x2="4.62" y2="0.37" width="0.001" layer="20"/>
+<wire x1="4.92" y1="0.67" x2="4.62" y2="0.37" width="0.001" layer="20" curve="90"/>
+<wire x1="4.62" y1="-1.35" x2="4.62" y2="0.37" width="0.001" layer="20"/>
 <wire x1="-5.32" y1="-0.6" x2="-5.92" y2="-0.6" width="0.001" layer="20" curve="-180"/>
 <wire x1="-5.92" y1="-0.6" x2="-5.92" y2="0.6" width="0.001" layer="20"/>
 <wire x1="-5.32" y1="-0.6" x2="-5.32" y2="0.6" width="0.001" layer="20"/>

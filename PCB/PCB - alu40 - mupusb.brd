@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.2" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.05" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -188,8 +188,7 @@
 <board>
 <fusionsync huburn="a.cGVyc29uYWw6dWUyZjhiMzhi" projecturn="a.cGVyc29uYWw6dWUyZjhiMzhiIzIwMjAwODMxMzI4MDU3OTAx" f3durn="urn:adsk.wipprod:dm.lineage:5AzalNx0Rd2hx-ij7DXyEg" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="ea5955b8-62e3-43a8-b583-e3b21c92fb1d" lastsyncedrevisionid="ea5955b8-62e3-43a8-b583-e3b21c92fb1d" lastboardhashguid="a57c4818-7f08-39e1-741c-bb3f48dd1bd3" lastpushedtime="2020-09-27T18:04:47Z" linktopcb3d="true"/>
 <plain>
-<wire x1="118.62" y1="76" x2="118.7" y2="76" width="0" layer="20" grouprefs="ALL"/>
-<wire x1="118.7" y1="76" x2="148.7" y2="76" width="0" layer="20" grouprefs="ALL"/>
+<wire x1="118.62" y1="76" x2="148.7" y2="76" width="0" layer="20" grouprefs="ALL"/>
 <rectangle x1="83.5736" y1="36.781" x2="106.2812" y2="41.4546" layer="41"/>
 <rectangle x1="83.7736" y1="36.781" x2="106.4812" y2="41.4546" layer="42"/>
 <wire x1="155.3" y1="76" x2="224.7" y2="76" width="0" layer="20" grouprefs="ALL"/>
@@ -9830,7 +9829,7 @@
 <rectangle x1="40.720946875" y1="6.4666125" x2="41.165446875" y2="6.48769375" layer="21"/>
 <rectangle x1="53.801946875" y1="6.4666125" x2="54.226128125" y2="6.48769375" layer="21"/>
 <text x="0" y="-0.10668125" size="0.04318125" layer="200" font="vector">C:/Users/harry/Downloads/alu40 logo black.bmp</text>
-<wire x1="118.7" y1="76" x2="79.3" y2="76" width="0.001" layer="20"/>
+<wire x1="109.38" y1="76" x2="79.3" y2="76" width="0.001" layer="20"/>
 <wire x1="72.7" y1="76" x2="3.3" y2="76" width="0.001" layer="20"/>
 <hole x="225.5" y="19" drill="2.4"/>
 <hole x="225.5" y="57" drill="2.4"/>
@@ -10341,7 +10340,7 @@
 <circle x="-2.8575" y="2.8575" radius="0.2032" width="0" layer="21"/>
 <circle x="-1.27" y="1.905" radius="0.2032" width="0" layer="51"/>
 </package>
-<package name="MUP-MIDMNT-SS" urn="urn:adsk.eagle:footprint:40549077/1" library_version="41" library_locally_modified="yes">
+<package name="MUP-MIDMNT-SS" urn="urn:adsk.eagle:footprint:40549077/1" locally_modified="yes" library_version="41" library_locally_modified="yes">
 <smd name="A6" x="-0.25" y="4.8" dx="1.4" dy="0.3" layer="1" rot="R90"/>
 <smd name="A7" x="0.25" y="4.8" dx="1.4" dy="0.3" layer="1" rot="R90"/>
 <smd name="B6" x="0.75" y="4.8" dx="1.4" dy="0.3" layer="1" rot="R90"/>
@@ -10362,8 +10361,8 @@
 <smd name="SHLD6" x="-5.62" y="0" dx="2.2" dy="1" layer="16" roundness="100" rot="R90"/>
 <smd name="SHLD7" x="5.62" y="0" dx="2.2" dy="1" layer="16" roundness="100" rot="R90"/>
 <smd name="SHLD8" x="5.62" y="0" dx="2.2" dy="1" layer="1" roundness="100" rot="R90"/>
-<wire x1="-4.62" y1="-2.1" x2="4.62" y2="-2.1" width="0.127" layer="21"/>
-<wire x1="-4.62" y1="-2.1" x2="-4.62" y2="0.37" width="0.001" layer="20"/>
+<wire x1="-4.62" y1="-1.35" x2="4.62" y2="-1.35" width="0.127" layer="21"/>
+<wire x1="-4.62" y1="-1.35" x2="-4.62" y2="0.37" width="0.001" layer="20"/>
 <wire x1="-4.92" y1="0.67" x2="-4.62" y2="0.37" width="0.001" layer="20" curve="-90"/>
 <wire x1="-4.92" y1="0.67" x2="-5.22" y2="0.97" width="0.001" layer="20" curve="-90"/>
 <wire x1="-5.22" y1="0.97" x2="-5.22" y2="2.25" width="0.001" layer="20"/>
@@ -10378,8 +10377,8 @@
 <wire x1="5.22" y1="2.25" x2="4.92" y2="2.55" width="0.001" layer="20" curve="90"/>
 <wire x1="5.22" y1="0.97" x2="5.22" y2="2.25" width="0.001" layer="20"/>
 <wire x1="4.92" y1="0.67" x2="5.22" y2="0.97" width="0.001" layer="20" curve="90"/>
-<wire x1="4.92" y1="0.67" x2="4.62" y2="0.37" width="0.001" layer="19" curve="90"/>
-<wire x1="4.62" y1="-2.1" x2="4.62" y2="0.37" width="0.001" layer="20"/>
+<wire x1="4.92" y1="0.67" x2="4.62" y2="0.37" width="0.001" layer="20" curve="90"/>
+<wire x1="4.62" y1="-1.35" x2="4.62" y2="0.37" width="0.001" layer="20"/>
 <wire x1="-5.32" y1="-0.6" x2="-5.92" y2="-0.6" width="0.001" layer="20" curve="-180"/>
 <wire x1="-5.92" y1="-0.6" x2="-5.92" y2="0.6" width="0.001" layer="20"/>
 <wire x1="-5.32" y1="-0.6" x2="-5.32" y2="0.6" width="0.001" layer="20"/>
